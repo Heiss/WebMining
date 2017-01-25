@@ -11,9 +11,9 @@ def loadSites():
     
     fname = "./sites"
     with open(fname) as f:
-        sites = f.readlines()
+        sites = [line.rstrip('\n') for line in open(filelinks)]
     
-    
+
 def downloadXML():
     global sites, files
     
@@ -66,6 +66,7 @@ def downloadArticles():
         
         print("In Datei geschrieben...")
         
+
 def downloadArticleLinks():
     global sites, files
     
@@ -93,7 +94,7 @@ def downloadArticleLinks():
                     f.write("\n")
         
         print("Fertig: " + hostname) 
-        
+
 
 def execute():
     print("Lade Seiten aus Datei...")
@@ -105,6 +106,7 @@ def execute():
     print("Lade Artikel herunter...")
     downloadArticles()
 
+## Ausfuehrung
 while True:
     startTime = int(time.time())
     execute()
