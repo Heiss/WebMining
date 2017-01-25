@@ -27,7 +27,7 @@ def downloadXML():
         wp = urllib.request.urlopen(val)
         pw = wp.read().decode('utf-8')
         
-        filename = os.getcwd() + "/" + urlparse(val).hostname + ".txt"
+        filename = os.getcwd() + "/" + urlparse(val).hostname + ".xml"
         target = open(filename, 'w')
         target.truncate()
         target.write(pw)
@@ -37,14 +37,14 @@ def downloadXML():
     print(files)
     
 def downloadArticles():
-    store = pd.HDFStore('store.h5')
-    
     for i, val in list(enumerate(files)):
+        hostname = urlparse(sites[i]).hostname
+        filecsv = os.getcwd() + "/dataStore/" + hostname + ".csv"
         
         col = ["timestamp", "url", "content"]
         
         if sites[i] in store:
-            df = store[sites[i]]
+            df = pd.read_csv(filecsv, sep='\t', encoding='utf-8')
         else:
             df = pd.DataFrame(columns=col)
         
@@ -59,25 +59,15 @@ def downloadArticles():
             wp = urllib.request.urlopen(link)
             pw = wp.read().decode('utf-8')
             
-            data = {"timestamp" : {int(round(time.time() * 1000))},  
-                     "url" : {link},
-                     "content" : {pw}}
+            data = {"timestamp" : {int(round(time.time() * 1000))}, "url" : {link}, "content" : {pw}}
             tempDF = pd.DataFrame(data, columns=col)
             
             df = df.append(tempDF, ignore_index=True)
         
-        hostname = urlparse(sites[i]).hostname
         print("Fertig: " + hostname) 
-        store[hostname] = df
-    store.close()
-            
-def showArticles():
-    store = pd.HDFStore('store.h5')
-    print(store.keys())
-    for i, val in list(enumerate(sites)):
-        hostname = urlparse(sites[i]).hostname
-        print(store[hostname])
 
+        df.to_csv(filecsv, sep='\t', encoding='utf-8')
+                
 def execute():
     print("Lade Seiten aus Datei...")
     loadSites()
@@ -85,7 +75,5 @@ def execute():
     downloadXML()
     print("Lade Artikel herunter...")
     downloadArticles()
-    print("Zeige Artikel an...")
-    showArticles()
     
 execute()
