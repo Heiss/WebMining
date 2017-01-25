@@ -13,7 +13,6 @@ def loadSites():
     with open(fname) as f:
         sites = f.readlines()
     
-    print(sites)
     
 def downloadXML():
     global sites, files
@@ -33,22 +32,18 @@ def downloadXML():
         target.write(pw)
         target.close()
         files.append(filename)
-    
-    print(files)
+
     
 def downloadArticles():
     for i, val in list(enumerate(files)):
         hostname = urlparse(sites[i]).hostname
+        root = ET.parse(val).getroot()
         filecsv = os.getcwd() + "/dataStore/" + hostname + ".csv"
         
+        print("Starte: " + hostname)
+        
         col = ["timestamp", "url", "content"]
-        
-        if sites[i] in store:
-            df = pd.read_csv(filecsv, sep='\t', encoding='utf-8')
-        else:
-            df = pd.DataFrame(columns=col)
-        
-        root = ET.parse(val).getroot()
+        df = pd.DataFrame(columns=col)
         
         for child in root[0]:
             if(child.tag != "item"):
@@ -65,9 +60,13 @@ def downloadArticles():
             df = df.append(tempDF, ignore_index=True)
         
         print("Fertig: " + hostname) 
+        
+        with open(filecsv, "a") as f:
+            df.to_csv(f, sep='\t', encoding='utf-8', header=False)
+        
+        print("In Datei geschrieben...")
+        
 
-        df.to_csv(filecsv, sep='\t', encoding='utf-8')
-                
 def execute():
     print("Lade Seiten aus Datei...")
     loadSites()
