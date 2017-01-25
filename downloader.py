@@ -9,9 +9,9 @@ files = []
 def loadSites():
     global sites
     
-    fname = "./sites"
+    fname = os.getcwd() + "/sites"
     with open(fname) as f:
-        sites = [line.rstrip('\n') for line in open(filelinks)]
+        sites = [line.rstrip('\n') for line in open(fname)]
     
 
 def downloadXML():
@@ -51,7 +51,8 @@ def downloadArticles():
         df = pd.DataFrame(columns=col)
         
         for link in links:
-            wp = urllib.request.urlopen(link)
+            req = urllib.request.Request(link, headers={'User-Agent': 'Mozilla/5.0'})
+            wp = urllib.request.urlopen(req)
             pw = wp.read().decode('utf-8')
             
             data = {"timestamp" : {int(round(time.time() * 1000))}, "url" : {link}, "content" : {pw}}
@@ -86,7 +87,10 @@ def downloadArticleLinks():
             if(child.tag != "item"):
                 continue
             
-            link = child[1].text
+            for it in child:
+                if it.tag == "link":
+                    link = it.text
+                    break
             
             if link not in links:
                 with open(filecsv, "a") as f:
