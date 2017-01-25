@@ -74,5 +74,8 @@ def execute():
     downloadXML()
     print("Lade Artikel herunter...")
     downloadArticles()
-    
-execute()
+
+while True:
+    execute()
+    print("Warten: " + time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
+    time.sleep(20*60)
