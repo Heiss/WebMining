@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>RT Deutsch</title>
+        <link>https://deutsch.rt.com</link>
+        <description>RT Deutsch</description>
+        <language>de</language>
+        <copyright>RT Deutsch</copyright>
+        <atom:link href="https://deutsch.rt.com/feeds/news/" rel="self" type="application/rss+xml" />
+        <image>
+            <url>https://deutsch.rt.com/static/img/logo.png</url>
+            <title>RT Deutsch</title>
+            <link>https://deutsch.rt.com</link>
+            <width>80</width>
+            <height>80</height>
+        </image>
+            <item>
+        <title>Donald Trump lässt Pipelines Keystone XL und Dakota Access weiter bauen </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45715-donald-trump-lasst-pipelines-keystone/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45715-donald-trump-lasst-pipelines-keystone/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887aa28c4618821638b45d5.JPG" /> Der US-amerikanische Präsident Donald Trump hat zwei Pipeline-Projekte wiederbelebt. Am Dienstag hat er zwei entsprechende Anordnungen unterzeichnet, meldet Reuters. Dabei handelt es sich um die Pipeline Keystone XL zwischen der kanadischen Provinz Alberta und dem US-Bundesstaat Texas sowie die Pipeline Dakota Access zwischen den Bundesstaaten North Dakota und Illinois.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887aa28c4618821638b45d5.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 20:44:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Deutscher Film &quot;Toni Erdmann&quot; für den Oscar nominiert</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45714-deutscher-film-toni-erdmann-fur/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45714-deutscher-film-toni-erdmann-fur/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887a0d3c461881f638b45cc.jpg" /> Die Tragikomödie von Regisseurin Maren Ade, "Toni Erdmann", ist für einen Oscar nominiert. Das gab die Oscar-Akademie in Los Angeles am Dienstag bekannt. Der Beitrag ist einer der fünf Kandidaten im Rennen für die Auszeichnung als "bester fremdsprachiger Film". ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887a0d3c461881f638b45cc.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 20:15:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Matthias Platzeck (SPD) über Donald Trumps Außenpolitik: “Man kann Hoffnung haben“</title>
+        <link><![CDATA[https://deutsch.rt.com/meinung/45702-matthias-platzeck-spd-uber-donald/]]></link>
+        <guid>https://deutsch.rt.com/meinung/45702-matthias-platzeck-spd-uber-donald/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876412c46188db2b8b467f.JPG" /> Der ehemalige Ministerpräsident Brandenburgs und heutiger Vorsitzender des Deutsch-Russischen Forums, Matthias Platzeck, vertrat im Rahmen einer Diskussionsveranstaltung in Moskau zur Zukunft der amerikanisch-russischen Beziehungen vor dem Hintergrund des neuen US-Präsidenten Trump die deutsche Sicht der Dinge.
+
+]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876412c46188db2b8b467f.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 20:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Schweres US-Militärgerät bei Transport nach Polen beschädigt</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45713-schweres-us-militargerat-bei-transport/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45713-schweres-us-militargerat-bei-transport/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58879775c36188c1048b459f.PNG" /> Bei der Verlegung der US-amerikanischen Militärtechnik aus Deutschland nach Polen ist die Armee der Vereinigten Staaten auf "unerwartete Schwierigkeiten" gestoßen. Nach Angaben des Wall Street Journal seien mehrere Panzereinheiten bei ihrer Fahrt aus Bremerhaven beschädigt worden, da einige Brücken auf ihrem Weg niedriger waren als erwartet. Fünf Maschinen bleiben noch in Deutschland, derzeit wird es nach anderen Lieferwegen gesucht. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58879775c36188c1048b459f.PNG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 19:52:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Friedensverhandlungen in Astana: Wie die USA die Verhandlungen sehen</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45701-friedensverhandlungen-in-astana-wie-usa/]]></link>
+        <guid>https://deutsch.rt.com/international/45701-friedensverhandlungen-in-astana-wie-usa/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876cadc461881a638b458b.JPG" /> Das amerikanische Außenministerium betont, dass man in Sachen Syriendiplomatie weiter "führend" sei. Allerdings ist die Supermacht nicht zu den aktuellen Verhandlungen erschienen. Der russische Außenminister Lawrow betont, dass die UNO als auch die USA eingeladen wurden. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876cadc461881a638b458b.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 19:36:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title> Israel billigt 2.500 neue Siedlerwohnungen im Westjordanland</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45712-israel-billigt-2500-neue-siedlerwohnungen/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45712-israel-billigt-2500-neue-siedlerwohnungen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58879584c4618872108b45e4.JPG" /> Israels Behörden haben am Dienstag den Bau von 2.500 neuen Siedlerwohnungen im Westjordanland genehmigt. Das gab Associated Press unter Berufung auf den israelischen Verteidigungsminister, Avigdor Lieberman, bekannt. Nach Angaben der Zeitung Haaretz will der israelische Regierungschef Benjamin Netanjahu Bauaktivitäten in den großen Siedlungsblöcken auf diesem Territorium beschleunigen. Es werden im Wesentlichen bereits bestehende Siedlungskomplexe ausgebaut.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58879584c4618872108b45e4.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 19:09:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Zuviel Verständnis für russische Sicht: US-Spionageabwehr überprüft US-Sicherheitschef Michael Flynn</title>
+        <link><![CDATA[https://deutsch.rt.com/nordamerika/45706-russland-usa-michael-flynn/]]></link>
+        <guid>https://deutsch.rt.com/nordamerika/45706-russland-usa-michael-flynn/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58875424c36188e0758b4655.jpg" /> Auch nach dem Amtsantritt Donald Trumps halten US-Nachrichtendienste Verschwörungstheorien über ein Komplott zwischen der neuen Regierung und dem Kreml am Kochen. Nun prüft die Spionageabwehr Telefonate zwischen Sicherheitsberater Michael Flynn und Moskau. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58875424c36188e0758b4655.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 19:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Russische Feuerwehr rettet 150 Ferkel aus brennendem Stall [VIDEO]</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45711-russische-feuerwehr-rettet-150-ferkel/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45711-russische-feuerwehr-rettet-150-ferkel/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58879224c4618821638b45b8.jpg" /> Am vergangenen Freitag ist in einem Stall in der Ortschaft Tschornaja Retschka im russischen Gebiet Tomsk Feuer ausgebrochen. Insgesamt rund 150 Schweine und Ferkel haben sich zu diesem Zeitpunkt im Gebäude befunden. Durch einen Einsatz der Feuerwehr wurden die Tiere vor dem Brand gerettet. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58879224c4618821638b45b8.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 18:55:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Türkei ist gegen ein säkulares Syrien</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45710-turkei-ist-gegen-syrien-als-sakularen-staat/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45710-turkei-ist-gegen-syrien-als-sakularen-staat/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58878f8ec36188c1048b4589.jpg" /> Die Delegationen der Türkei und der bewaffneten Opposition bei den Friedensgesprächen zum Krieg in Syrien in Astana sind dagegen aufgetreten, dass das Land ein säkularer Staat bleibt. „Wir [unsere Delegation – RT] haben darauf bestanden, dass Syrien ein bürgerlicher und säkularer Staat bleibt. Aber die Abordnung der Türkei und der bewaffneten syrischen Opposition haben diesen Vorschlag abgelehnt", gab der ständige UN-Botschafter Syriens, Baschar al-Dschafari, in einer Pressekonferenz bekannt.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58878f8ec36188c1048b4589.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 18:45:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>US-Luftwaffe bombardiert Stellungen in Libyen: Angeblich Kontaktmänner von Anis Amri im Visier</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45709-usa-luftwaffe-amri-libyen/]]></link>
+        <guid>https://deutsch.rt.com/international/45709-usa-luftwaffe-amri-libyen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887740dc4618832638b458c.jpg" /> Der mutmaßliche Attentäter von Berlin, Anis Amri, hatte geheimdienstlichen Erkenntnissen zufolge auch Kontakt nach Libyen. Einem Medienbericht zufolge flogen US-Luftstreitkräfte nun Angriffe gegen IS-Stellungen, die offensichtlich Kontaktmännern Amris galten.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887740dc4618832638b458c.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 18:01:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Bundespräsident Gauck setzt Bundestagswahl-Termin fest</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45708-bundesprasident-gauck-setzt-bundestagswahl-termin-fest/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45708-bundesprasident-gauck-setzt-bundestagswahl-termin-fest/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58878527c4618872108b45bd.JPG" /> Die Bundestagswahl findet am 24. September statt. Den Termin hat Bundespräsident Joachim Gauck am Dienstag bestätigt. Am 18. Januar hatte die Bundesregierung für eine entsprechende Vorlage von Bundesinnenminister Thomas de Maiziere gestimmt. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58878527c4618872108b45bd.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 17:56:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Ungarns Außenministerium: Budapest verlor 6,5 Milliarden Dollar wegen antirussischer Sanktionen</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45707-ungarns-aussenministerium-budapest-verlor-65-milliarden-dollar/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45707-ungarns-aussenministerium-budapest-verlor-65-milliarden-dollar/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588781afc4618832638b45a8.jpg" /> Der ungarische Außenminister Péter Szijjártó gab bekannt, dass sein Land wegen der gegenseitigen Sanktionen zwischen Russland und der EU rund 6,5 Milliarden US-Dollar verloren hat. Das berichtet die Zeitung Kommersant. Für Ungarn sei dies ein wesentlicher Verlust, da der Jahresetat des Staates etwa 90 Milliarden Dollar ausmacht.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588781afc4618832638b45a8.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 17:45:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Britischer Journalist wird für Frage über die Ukraine aus dem Parlament hinausbefördert</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45705-britischer-journalist-wird-hinausbefordert/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45705-britischer-journalist-wird-hinausbefordert/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58877da5c36188c1048b4568.jpg" /> Dem britischen Journalisten Graham Phillips wurde beim Treffen anlässlich des 25. Jahrestages der diplomatischen Beziehungen zwischen Großbritannien und der Ukraine die Tür gewiesen. Die Veranstaltung fand im britischen Parlament statt. Phillips fragte den zu dem Zeitpunkt auftretenden Parlamentsabgeordneten Gerald Howarth, ob er auch über ukrainische Artilleriebeschüsse und Mord an Zivilisten im Donbass erzählen wird. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58877da5c36188c1048b4568.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 17:16:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Spendabler Abschied: Obama überweist 221 Millionen Dollar an die Palästinensische Autonomiebehörde</title>
+        <link><![CDATA[https://deutsch.rt.com/nordamerika/45704-spende-zum-abschied-obama-uberweist-millionen-palastina/]]></link>
+        <guid>https://deutsch.rt.com/nordamerika/45704-spende-zum-abschied-obama-uberweist-millionen-palastina/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58877881c36188c06f8b4688.jpg" /> Kurz vor dem Ausscheiden aus seinem Amt genehmigte Ex-US-Präsident Barack Obama eine diskrete Übertragung von mehr als 221 Millionen US-Dollar auf Konten der Palästinensischen Autonomiebehörde. Dabei umging er eine Blockade durch die Republikaner im Kongress. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58877881c36188c06f8b4688.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 17:09:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Australischer Premier will TPP retten und schließt Beteiligung Chinas nicht aus</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45703-australischer-premier-will-ttp-retten/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45703-australischer-premier-will-ttp-retten/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58877266c4618819638b4593.jpg" /> Der australische Ministerpräsident Malcolm Turnbull hat erklärt, dass er die Transpazifische Partnerschaft (TPP) nach dem Ausstieg der USA retten will. „Es gibt eine Möglichkeit der weiteren TTP-Umsetzung ohne die USA, und ich habe sie am vergangenen Abend mit dem japanischen Premier Abe besprochen“, zitiert ihn The Sydney Morning Herald. Ihm zufolge handle es nicht um eine Auflösung der Organisation. Zudem schließe er den Beitritt Chinas nicht aus. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58877266c4618819638b4593.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 16:50:56 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Überraschung bei Urwahl der französischen Sozialisten: Favorit Valls unterliegt gegen Hamon</title>
+        <link><![CDATA[https://deutsch.rt.com/europa/45700-ueberraschung-urwahlen-frankreich-sozialisten-valls-hamon-hollande-marine-le-pen-fillon-macron/]]></link>
+        <guid>https://deutsch.rt.com/europa/45700-ueberraschung-urwahlen-frankreich-sozialisten-valls-hamon-hollande-marine-le-pen-fillon-macron/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876882c36188bf758b469e.JPG" /> Ex-Premier Manuel Valls ging als Favorit in die Urwahlen. Doch sein Konkurrent Benoît Hamon gewann in der ersten Runde mit 36,3 Prozent. Hamon wird dem linken Lager der Sozialisten zugerechnet. Eine wundersame Stimmenvermehrung sorgt zudem für heftigen Spott. Am Sonntag kommt es zur Stichwahl.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876882c36188bf758b469e.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 16:28:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Internet-Gemeinschaft fühlt mit der &quot;traurigen&quot; Frau des US-Präsidenten Trump mit</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45699-sad-melania-trump/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45699-sad-melania-trump/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876f15c4618831638b4576.jpg" /> Zahlreiche Bilder der traurig erscheinenden First Lady Melania Trump von der Vereidigungszeremonie sind zu Memes geworden. Im Netz verbreiten sich Fotos mit Hashtags #SadMelania und #FreeMelania. "Melania scheint die Vereidigung ihres Ehemannes genauso positiv zu bewerten wie die 48,2 Prozent der Menschen, die für Clinton gestimmt haben", berichtet das Internetportal Mashable.  ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876f15c4618831638b4576.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 16:19:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Friedensverhandlungen zu Syrien in Astana: Alle Parteien an einem Tisch</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45697-friedensverhandlungen-in-astana-alle-parteien/]]></link>
+        <guid>https://deutsch.rt.com/international/45697-friedensverhandlungen-in-astana-alle-parteien/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876908c4618831638b4567.JPG" /> Nur Deutschland mäkelt vom Spielfeldrand. Der Sprecher des neuen US-Präsidenten betont, dass die USA bereit sind, mit Russland im Kampf gegen den IS zusammenzuarbeiten. Auch der Sonderbeauftragte der UN, Staffan di Mistura, sagt seine Hilfe bei den Verhandlungen zu. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876908c4618831638b4567.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 16:05:50 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Sigmar Gabriel verzichtet – Martin Schulz soll SPD-Kanzlerkandidat werden</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45695-sigmar-gabriel-tritt-zuruck-martin/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45695-sigmar-gabriel-tritt-zuruck-martin/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876875c36188e0758b4670.jpg" /> SPD-Chef Sigmar Gabriel hat auf die Kanzlerkandidatur verzichtet. Das hat der Politiker gegenüber dem Magazin Stern erklärt. "Wenn ich jetzt anträte, würde ich scheitern und mit mir die SPD", sagte der Parteivorsitzende der Sozialdemokraten. Statt sich hat Gabriel den früheren EU-Parlamentspräsident Martin Schulz der SPD-Bundestagsfraktion vorgeschlagen. Schulz habe "die eindeutig besseren Wahlchancen", sagte der SPD-Chef dem Stern. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58876875c36188e0758b4670.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 15:50:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>USA verlegen Kampfhubschrauber „Apache“ nach Europa</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45691-usa-verlegen-kampfhubschrauber-apache-nach-europa/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45691-usa-verlegen-kampfhubschrauber-apache-nach-europa/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58875aa2c36188c56f8b465a.jpg" /> Die Vereinigten Staaten werden 20 Kampfhubschrauber vom Typ AH-64A Apache in Europa stationieren, heißt es auf der offiziellen Webseite der US-Armee. Es wird betont, dass die Technik bereits am Militärflughafen in der Stadt Corpus Christi in Texas angekommen ist. Von dort werden die Hubschrauber nach allen notwendigen Vorbereitungsarbeiten nach Europa geliefert. Sie müssen dort gegen Mitte Februar ankommen. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58875aa2c36188c56f8b465a.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 15:20:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>CDU/CSU-Konferenz gegen &quot;Hass, Hetze und Fake News&quot;: Perfekt inszenierte Scheinbeschäftigung</title>
+        <link><![CDATA[https://deutsch.rt.com/meinung/45692-cdu-konferenz-bundestag-hass-rede-fake-news/]]></link>
+        <guid>https://deutsch.rt.com/meinung/45692-cdu-konferenz-bundestag-hass-rede-fake-news/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588639d3c36188e0758b45a2.PNG" /> Das Podium der Unionsfraktion im Bundestag zu "Strategien gegen Hass, Hetze und Fake News im Netz" geriet ungewollt selbst zur Eloge auf die Echokammer. Solange man unter sich bleibt, ist die Welt in Ordnung. Eine vollwertig vorgetragene andere Meinung können die "Demokraten" aber nicht ertragen. 
+]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588639d3c36188e0758b45a2.PNG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 15:06:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Bundeskriminalamt warnt vor Terrorangriffen mit Chemikalien</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45689-bundeskriminalamt-warnt-vor-terrorangriffen-mit-chemikalien/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45689-bundeskriminalamt-warnt-vor-terrorangriffen-mit-chemikalien/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588757ffc4618872108b4569.jpg" /> Die deutsche Regierung und das Bundeskriminalamt (BKA) haben vor möglichen Terroranschlägen mit Chemiewaffen gewarnt. Das gab am Dienstag die Zeitung Bild bekannt. Demnach seien Islamisten bereit und in der Lage, "größere Mengen Chemikalien zu beschaffen und diese auch einzusetzen". Chemieangriffe auf die Trinkwasserversorgung sowie Lebensmittel seien derzeit möglich, so die Zeitung. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588757ffc4618872108b4569.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 14:45:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Handelsausschuss des EU-Parlaments segnet CETA ab</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45688-handelsausschuss-eu-parlaments-segnet-ceta-ab/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45688-handelsausschuss-eu-parlaments-segnet-ceta-ab/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887521fc36188e0758b4651.JPG" /> Der Handelsausschuss des EU-Parlaments hat am Dienstag das Freihandelsabkommen zwischen der EU und Kanada (CETA) gebilligt, berichtet die Nachrichtenagentur Associated Press. Dabei haben 25 Abgeordnete für das Abkommen gestimmt, weitere 15 dagegen, einer enthielt sich der Stimme. Die Vereinbarung muss allerdings vom gesamten EU-Parlament abgesegnet werden. Die Abstimmung soll im Februar stattfinden. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887521fc36188e0758b4651.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 14:13:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Nach Trumps Paukenschlag: Australien will TPP retten</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45687-nach-trumps-paukenschlag-australien-tpp/]]></link>
+        <guid>https://deutsch.rt.com/international/45687-nach-trumps-paukenschlag-australien-tpp/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58874f6ac46188b45d8b4695.JPG" /> Die Meldung schlug ein wie eine Bombe: Am ersten regulären Arbeitstag nach seiner Amtseinführung unterzeichnete US-Präsident Donald Trump ein Dekret, das den Ausstieg der Vereinigten Staaten aus dem transpazifischen Freihandelsabkommen TPP besiegelt.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58874f6ac46188b45d8b4695.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 14:10:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Ukrainische Streikräfte beschießen VR Lugansk in Anwesenheit des Vizechefs der OSZE-Mission</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45686-ukrainische-streikrafte-beschiessen-vr-lugansk/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45686-ukrainische-streikrafte-beschiessen-vr-lugansk/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58874e1ac36188c36f8b462d.jpg" /> Die Streitkräfte der Ukraine haben am Dienstagnachmittag den Ort Kalinowka in der selbsternannten Volksrepublik Lugansk angegriffen, meldet Life News. Zu diesem Zeitpunkt traf sich in der Volksrepublik der stellvertretende Chef der OSZE-Mission, Alexander Hug, mit Vertretern des Gemeinsamen Zentrums für Kontrolle und Koordination sowie mit Journalisten. Nach Angaben der Volksmiliz habe es sich um einen Granatwerfer-Angriff gehandelt. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58874e1ac36188c36f8b462d.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 13:58:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Russland, Iran und Türkei richten trilateralen Regelungsmechanismus für Syrien ein</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45685-russland-iran-und-turkei/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45685-russland-iran-und-turkei/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58874a36c36188c36f8b4627.jpg" /> Die Delegationen Russland, des Irans und der Türkei haben in einer gemeinsamen Erklärung nach Abschluss der Friedensgespräche in Astana angekündigt, einen dreiseitigen Mechanismus zu etablieren, der den Waffenstillstand in Syrien fördern soll. Die Unterhändler seien sich darin einig, dass man die Krise im Lande nur auf politischem Wege lösen kann. Sie bemerkten, dass die syrische Opposition an den Genfer Gesprächen teilnehmen müsste.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58874a36c36188c36f8b4627.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 13:36:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Deutschland weitet Mali-Einsatz aus und erhöht Bundeswehr-Gefahrenzulage  auf 110 Euro pro Tag</title>
+        <link><![CDATA[https://deutsch.rt.com/afrika/45683-mali-bundeswehsoldaten-gefahrenzulage-russland/]]></link>
+        <guid>https://deutsch.rt.com/afrika/45683-mali-bundeswehsoldaten-gefahrenzulage-russland/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588634ecc36188613a8b45a9.jpg" /> Trotz des jüngsten Terroraktes strebt Berlin eine Ausweitung der Bundeswehr-Präsenz in Mali an. Für die dortigen Soldaten soll die Gefahrenzulage erhöht werden. Derweil fordert eine malische Petition ein Eingreifen Russlands gegen die islamistische Gefahr in dem westafrikanischen Land.  ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588634ecc36188613a8b45a9.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 12:56:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Niederländischer Premier zu Migranten: &quot;Benehmt euch anständig oder geht&quot;</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45684-niederlandischer-premier-zu-migranten-benehmt-euch/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45684-niederlandischer-premier-zu-migranten-benehmt-euch/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588740eac46188da2b8b4650.jpg" /> Der niederländische Ministerpräsident Mark Rutte hat seine Landsleute dazu aufgerufen, die Werte des Landes vor Zuwanderern zu schützen, die sich an diese nicht anpassen wollen und sich asozial verhalten, schreibt Deutsche Welle. Unter anderem erwähnte der Politiker, dass manche Migranten "Homosexuelle drangsalieren und Frauen in Mini-Röcken beleidigen". "Benehmt euch anständig oder geht", schlussfolgerte er.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588740eac46188da2b8b4650.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 12:55:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Deutschland will Aufhebung der Russland-Sanktionen nicht gegen nukleare Abrüstung austauschen </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45681-deutschland-will-aufhebung-russland-sanktionen/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45681-deutschland-will-aufhebung-russland-sanktionen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588737cdc46188b45d8b4672.jpg" /> Deutschland wird die Entscheidung, die Russland-Sanktionen im Gegenzug für nukleare Abrüstung zu schwächen, nicht unterstützen. Dies teilte die deutsche Verteidigungsministerin Ursula von der Leyen in der Sendung Hardtalk auf BBC mit. Der Ministerin zufolge würde eine derartige Kombination „ganz klar nicht funktionieren“. Frau von der Leyen unterstrich, dass Deutschland die Schwächung der Sanktionen gegen Russland nur nach der kompletten Erfüllung des Minsker Abkommens ins Auge fassen wird. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588737cdc46188b45d8b4672.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 11:53:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Konfrontation um Südchinesisches Meer eskaliert: Chinesen kündigen verstärkte Seemanöver an</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45678-brandherd-sudchinesisches-meer-chinesen-kundigen/]]></link>
+        <guid>https://deutsch.rt.com/international/45678-brandherd-sudchinesisches-meer-chinesen-kundigen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://de.rt.com/deutsch/images/2017.01/thumbnail/588730bec36188613a8b462c.jpg" /> Zunehmenden Spannungen im südchinesischen Meer um Rohstoffe, Handelsrouten und Gebietsansprüche. Chinas neueste Ankündigung, seine Marine dort künftig regelmäßige Manöver abhalten zu lassen, lassen eine neue Eskalationsstufe befürchten. ]]>
+        </description>
+        <enclosure url="https://de.rt.com/deutsch/images/2017.01/thumbnail/588730bec36188613a8b462c.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 11:47:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Oberster Gerichtshof untersagt Einleitung von Brexit ohne Genehmigung durch Parlament</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45680-oberster-gerichtshof-untersagt-einleitung-von/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45680-oberster-gerichtshof-untersagt-einleitung-von/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58872e9bc36188613a8b4629.JPG" /> Der Oberste Gerichtshof des Vereinigten Königreichs hat das endgültige Urteil zum Verfahren beim EU-Austritt Großbritanniens gefällt. Dementsprechend darf die Regierung des Landes den Artikel 50 des Lissaboner Vertrags, der die Umsetzung von Brexit reglementiert, ohne Billigung des Parlaments nicht einleiten, informierte Bloomberg News. Somit bekräftigte die Behörde die Entscheidung des High Court of Justice vom November 2016, gegen die die britische Regierung eine Berufung eingereicht hatte.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58872e9bc36188613a8b4629.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 11:30:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>NATO zieht Zusammenarbeit mit der Ukraine ohne Obligo vor</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45677-nato-zieht-zusammenarbeit-mit-ukraine/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45677-nato-zieht-zusammenarbeit-mit-ukraine/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887220dc46188de2b8b4651.jpg" /> Die Nordatlantische Allianz hat nicht vor, die Ukraine in ihre Reihen aufzunehmen, berichtete die Zeitung Iswestija unter Berufung auf eine Militärquelle in Brüssel. Dem Medium zufolge soll die NATO auf die Idee, Kiew in die Organisation aufzunehmen, momentan wegen des "fehlenden Konsenses" verzichtet haben. Außerdem gäbe es bisher keine klare Vorstellung davon, wie "ausgerechnet die Ukraine zur Stärkung der Sicherheit anderer Mitglieder beitragen könnte".]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5887220dc46188de2b8b4651.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 10:59:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Syrische Opposition wird Abschlusskommuniqué des Treffens in Astana nicht unterschreiben </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45676-syrische-opposition-weigert-sich-abschlusskommunique/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45676-syrische-opposition-weigert-sich-abschlusskommunique/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58871750c36188613a8b4621.JPG" /> Die Vertreter der syrischen Opposition, die an den Verhandlungen in Astana teilnehmen, werden das Abschlussdokument der Bürgschaftsstaaten nicht unterzeichnen. Dies teilte die Nachrichtenagentur TASS unter Berufung auf Yahya al-Aridi, ein Mitglied der oppositionellen Delegation, mit. "Die Bürgschaftsländer - Russland, die Türkei und möglicherweise der Iran - werden das Dokument einfach verbreiten", sagte er.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58871750c36188613a8b4621.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 10:24:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Trump beendet seine Geschäftskarriere in über 400 Unternehmen</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45675-trump-verlasst-geschaftswelt-und-gibt/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45675-trump-verlasst-geschaftswelt-und-gibt/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588712f8c36188c56f8b45fd.jpg" /> Der neue Präsident der Vereinigten Staaten, Donald Trump, hat die Geschäftswelt vollständig verlassen und die Leitung von über 400 Firmen abgegeben. Dies teilte CNN unter Berufung auf ein von der Trump Organization bereitgestelltes Dokument mit. Es wurde bekannt, dass das 19-seitige Papier von Trump bereits am 19. Januar, also vor der Amtseinführung am 20. Januar, unterzeichnet wurde.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588712f8c36188c56f8b45fd.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 09:50:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Mel Gibson wird zum neunten Mal Vater</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45674-mel-gibson-wird-vater-zum/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45674-mel-gibson-wird-vater-zum/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58870d37c36188613a8b460c.JPG" /> Im Alter von 61 Jahren hat der US-amerikanisch-australischer Schauspieler Mel Gibson erneut die Vaterfreude erlebt. Am 20. Januar brachte seine 26-jährige Lebensgefährtin, die Szenaristin Rosalind Ross, einen Sohn namens Lars Gerard Gibson zur Welt. Der US-Star hat bereits sieben Kinder von seiner Ex-Frau Robyn Moore sowie eine weitere Tochter von der russischen Pianistin Oksana Grigorieva.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58870d37c36188613a8b460c.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 09:29:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Trumps Berater: Madonna soll verhaftet werden  </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45673-trumps-berater-madonna-soll-verhaftet/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45673-trumps-berater-madonna-soll-verhaftet/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886fa1fc36188bf758b4607.JPG" /> Während der Protestkungebungen am Tag nach der Inauguration von Donald Trump hat die US-amerikanische Sängerin Madonna harsche Kritik am neuen Präsidenten ausgeübt. "Ja, ich bin wütend. Ja, ich bin empört. Ja, ich habe unheimlich viel darüber nachgedacht, das Weiße Haus in die Luft zu sprengen", sagte sie. Nach dieser Aussage forderte Newt Gingrich, der Trump während seines Präsidentschaftswahlkampfes beraten hatte, die Pop-Ikone zu verhaften, berichtet Huffington Post.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886fa1fc36188bf758b4607.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 08:31:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Obama überweist der Palästinenserbehörde in letzten Stunden seiner Amtszeit 221 Millionen US-Dollar</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45672-us-regierung-stellt-221-millionen/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45672-us-regierung-stellt-221-millionen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886f2d5c36188c06f8b45f4.JPG" /> Die USA haben wenige Stunden vor dem Rücktritt von Barack Obama der Palästinenserbehörde (PA) 221 Millionen US-Dollar zur Verfügung gestellt, teilt Associated Press mit. Die Summe sei trotz des Protests republikanischer Kongressmitglieder transferiert worden. Dabei soll eine schriftliche Mitteilung kurz vor der Inauguration von Donald Trump beim US-Kongress eingereicht worden sein. Außerdem habe die Obama-Administration weitere sechs Millionen Dollar an verschiedene Auslandsprogramme zugewiesen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886f2d5c36188c06f8b45f4.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 08:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>China stationiert Interkontinentalraketen vom Typ DF-41 an Grenze zu Russland</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45671-china-stationiert-interkontinentalraketen-vom-typ/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45671-china-stationiert-interkontinentalraketen-vom-typ/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886eb11c46188db2b8b4617.jpg" /> Vor kurzem sind auf chinesischen Webseiten Bilder der neuesten Raketensysteme erschienen. "Laut veröffentlichten Informationen wurden die Fotos in der Provinz Heilongjiang aufgenommen. Militäranalytiker sind überzeugt, dass dies vermutlich die zweite strategische Raketenbrigade des Typs DF-41 ist, und dass sie im Nordosten Chinas stationiert wurde", schreibt Global Times. Ferner gibt die Zeitung an, dass dies die Reaktion Pekings auf provokative Aussagen Donald Trumps gegenüber China sein kann.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886eb11c46188db2b8b4617.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 07:30:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Gründer von Alibaba: USA haben Billionen US-Dollar in Krieg investiert statt in ihre Menschen</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45662-jack-ma-china-alibaba-usa-handel-trump-wirtschaft-politik-kritik-krieg-verschwendung/]]></link>
+        <guid>https://deutsch.rt.com/international/45662-jack-ma-china-alibaba-usa-handel-trump-wirtschaft-politik-kritik-krieg-verschwendung/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861392c46188de2b8b4595.JPG" /> Jack Ma ist der reichste Mann Chinas und Gründer der erfolgreichen Alibaba-Group, einer Gruppe von Internet-basierten Unternehmen. Der IT-Unternehmer hat seine eigene Sicht auf die Entwicklung der USA und die zunehmenden kritischen Töne aus Washington.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861392c46188de2b8b4595.JPG" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 06:45:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Ecuador: Correa hinterlässt erfolgreiche Bürgerrevolution – Opposition kontert mit Negativwahlkampf</title>
+        <link><![CDATA[https://deutsch.rt.com/amerika/45642-ecuador-correa-hinterlasst-erfolgreiche-burgerrevolution-opposition-wahlkampf/]]></link>
+        <guid>https://deutsch.rt.com/amerika/45642-ecuador-correa-hinterlasst-erfolgreiche-burgerrevolution-opposition-wahlkampf/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ec65c4618813648b4644.jpg" /> Nach zehn Jahren verlässt Ecuadors Präsident Rafael Correa das Amt. Seine "Bürgerrevolution" erwies sich als Erfolgsmodell, was Zahlen eindeutig belegen. Die neoliberale Opposition versucht nun, mithilfe einer emotionalen Kampagne eine Wende zu erzwingen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ec65c4618813648b4644.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 06:30:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Was ich selber mach und tu... Die AfD und ihre Themen in den Talkshows von ZDF und ARD</title>
+        <link><![CDATA[https://deutsch.rt.com/inland/45660-wie-mainstream-medien-themen-und/]]></link>
+        <guid>https://deutsch.rt.com/inland/45660-wie-mainstream-medien-themen-und/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886265ac46188da2b8b45a1.jpg" /> Die NATO-Propaganda verbreitet seit Jahren, russische Medien wie RT Deutsch würden in Deutschland die Rechtspopulisten unterstützen. Eine schnelle Überprüfung zeigt: Die öffentlich-rechtlichen Medien taten im letzten Jahr genau das, was sie RT Deutsch unterstellen. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886265ac46188da2b8b45a1.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 06:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Vereinte Nationen: Afghanistan auf dem Weg in eine humanitäre Katastrophe</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45657-afghanistan-auf-weg-in-humanitare/]]></link>
+        <guid>https://deutsch.rt.com/international/45657-afghanistan-auf-weg-in-humanitare/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885f9fac36188341f8b461e.jpg" /> Die Vereinten Nationen warnen vor einer humanitären Katastrophe in Afghanistan. Sie prognostizieren, dass ein Drittel der Afghanen in diesem Jahr humanitäre Hilfe benötigen wird. Als Sofortmaßnahme fordern sie eine halbe Milliarde US-Dollar. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885f9fac36188341f8b461e.jpg" type="image/jpeg" length="123"/>        <pubDate>Tue, 24 Jan 2017 06:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Leiter der russischen Delegation lobt ersten Tag der Syrien-Friedensgespräche in Astana</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45670-leiter-russischen-delegation-lobt-ersten/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45670-leiter-russischen-delegation-lobt-ersten/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58865f90c36188613a8b45e7.JPG" /> Der russische Sonderbeauftragte für Syrien, Alexander Lawrentjew, hat mitgeteilt, dass der erste Tag der Friedensverhandlungen in Astana erfolgreich abgeschlossen ist. „Es ist ein bedeutsamer und symbolischer Schritt, der uns alle auf Übergang zum neuen qualitativen Niveau der Verhandlungsführung hoffen lässt“, sagte er. Zum Waffenstillstand in Syrien, der Abkopplung der Kriegsparteien sowie dem gemeinsamen Anti-Terror-Kampf sei bisher noch keine Entscheidung getroffen worden.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58865f90c36188613a8b45e7.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 21:21:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>IS-Anführer im kritischem Zustand nach Luftangriff der US-Koalition - The Mirror</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45669-is-anfuhrer-im-kritischen-zustand/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45669-is-anfuhrer-im-kritischen-zustand/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58865b76c36188c06f8b45eb.JPG" /> Am Montag sind von mehreren britischen Medien, einschließlich der Zeitung The Mirror, Berichte eingegangen, laut denen der Anführer der Terrormiliz Islamischer Staat, Abu Bakr al-Baghdadi, schwer verletzt worden sei und sich in einem kritischen Zustand befinde. Die Verletzungen soll er beim Luftangriff der US-angeführten Koalition nahe der nordirakischen Stadt al-Baadsch erlitten haben. Bisher haben Vertreter der verbündeten Luftstreitkräfte keine Kommentare dazu abgegeben. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58865b76c36188c06f8b45eb.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 20:46:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Israelisches Außenministerium nennt Trump „echten Freund im Weißen Haus“</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45668-israelisches-aussenministerium-nennt-trump-echten/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45668-israelisches-aussenministerium-nennt-trump-echten/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588656d9c46188da2b8b45fd.JPG" /> Israel ist mit der neuen US-Administration „äußerst zufrieden“, betonte die stellvertretende Außenministerin Israels, Tzipi Hotovely, nach einer Telefonunterredung zwischen dem angetretenen US-Präsidenten Donald Trump und dem israelischen Premier Benjamin Netanjahu. „Ich glaube, dass alle Aussagen der Trump-Administration demonstrieren, wie tief ihre freundschaftliche Haltung gegenüber Israel ist“, sagte sie. Außerdem bezeichnete die Politikerin Trump als „einen echten Freund im Weißen Haus“.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588656d9c46188da2b8b45fd.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 20:23:26 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Erdogan spielt Holztrommel beim Staatsbesuch in Tansania</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45667-erdogan-spielt-tamtam-beim-staatsbesuch/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45667-erdogan-spielt-tamtam-beim-staatsbesuch/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58864a48c46188b45d8b460b.jpg" /> Am 22. bis 26. Januar ist der türkische Präsident Recep Tayyip Erdoğan auf seiner Dienstreise durch mehrere afrikanische Staaten unterwegs. Bei dem Besuch in Tansania hat das Staatsoberhaupt das lokale Musikinstrument – Tamtam (eine Holztrommel) – gespielt, schreibt die Zeitung Hürriyet Daily News. Das Video seines Musizierens wurde vom Sender CNN Türk veröffentlicht. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58864a48c46188b45d8b460b.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 19:46:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Nach Trumps Vereidigung: Israel genehmigt 671 weitere Wohnungen in Ost-Jerusalem</title>
+        <link><![CDATA[https://deutsch.rt.com/der-nahe-osten/45666-israel-genehmigt-neue-illegale-siedlungen/]]></link>
+        <guid>https://deutsch.rt.com/der-nahe-osten/45666-israel-genehmigt-neue-illegale-siedlungen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886364cc46188d92b8b45b0.jpg" /> Israel hat weitere 671 Wohneinheiten genehmigt, davon 566, die im Rahmen der Siedlungsbau-Initiative der Regierung im Osten Jerusalems errichtet werden sollen. Die Ankündigung erfolgte 48 Stunden nach dem Amtsantritt Donald Trumps als 45. US-Präsident.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886364cc46188d92b8b45b0.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 19:22:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>&quot;Star Wars&quot;-Hoverbike erfolgreich getestet</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45665-star-wars-hoverbike-erfolgreich-getestet/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45665-star-wars-hoverbike-erfolgreich-getestet/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863f1ac36188c06f8b45c7.jpg" /> Die US-Militärs haben erfolgreich das Versuchsmodell eines Hoverbikes mit Star-Wars-Design getestet, den man bei Kampfhandlungen zur Versorgung von Soldaten einsetzen will. Es wurde von der britischen Firma Malloy Aeronautics entwickelt. Zuerst suchte man nach einer Finanzierung bei Kickstarter, wo das Projekt der US-Armee auffiel. Die Tragfähigkeit des Bikes beträgt 135 Kilogramm, muss aber bis auf 360 Kilogramm vergrößert werden, damit man Munition direkt auf das Kampffeld transportieren kann.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863f1ac36188c06f8b45c7.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 19:10:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Irakische Armee berichtet über komplette Besitznahme von Ost-Mossul</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45664-irakische-armee-berichtet-uber-komplette/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45664-irakische-armee-berichtet-uber-komplette/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863739c36188c06f8b45b8.JPG" /> Die irakischen Streitkräfte haben bekannt gegeben, dass sie alle Terroristen des „Islamischen Staates“ aus dem östlichen Teil Mossuls verdrängt und diesen unter eigene Kontrolle gebracht haben. Darüber informierte der Fernsehsender Al Jazeera. Vorher hatte Al Mayadeen von der Befreiung der Universität Mossuls berichtet, die die Militanten früher als IS-Stützpunkt benutzten.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863739c36188c06f8b45b8.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 18:30:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Trump unterzeichnet Dekret zum Ausstieg aus Freihandelsabkommen TPP </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45663-trump-unterzeichnet-dekret-zum-ausstieg-freihandelsabkommen-tpp/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45663-trump-unterzeichnet-dekret-zum-ausstieg-freihandelsabkommen-tpp/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863953c36188e0758b459f.JPG" /> US-Präsident Donald Trump hat einen Erlass unterzeichnet, der den Ausstieg des Landes aus dem transpazifischen Freihandelsabkommen TPP vorsieht. Damit hat er eines seiner Hauptwahlversprechen eingehalten. Die Regierung von Barack Obama hatte den Vertrag als eine der wichtigsten Maßnahmen zur Gewährleistung des wirtschaftlichen Gleichgewichts mit China betrachtet.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863953c36188e0758b459f.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 18:22:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Deutschland steigert Rüstungsausgaben: 5,1 Milliarden für die Bundeswehr</title>
+        <link><![CDATA[https://deutsch.rt.com/inland/45655-deutschland-steigert-rustungsausgaben-51-milliarden/]]></link>
+        <guid>https://deutsch.rt.com/inland/45655-deutschland-steigert-rustungsausgaben-51-milliarden/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ffebc46188da2b8b4570.jpg" /> Seit Jahren machen die USA Druck, dass die NATO-Mitglieder ihre Ausgaben für Waffen erhöhen. Ursula von der Leyen hatte bereits angekündigt, mehr Steuermittel für die Bundeswehr auszugeben. Nun fällt die Erhöhung der Rüstungsausgaben überraschend deutlich aus. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ffebc46188da2b8b4570.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 18:05:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Chinesen und Zentralasiaten schließen sich immer öfter dem IS an</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45661-chinesen-und-zentralasiaten-schliessen-sich-is-an/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45661-chinesen-und-zentralasiaten-schliessen-sich-is-an/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886360dc36188c36f8b4596.jpg" /> Die Vereinigung Russlands, der Türkei und des Irans im Kampf gegen Terroristen in Syrien hat die ethnische Zusammensetzung der Terrormiliz beeinflusst, berichtet eine russische militär-diplomatische Quelle gegenüber Interfax. "Der Anteil der EU-Auswanderer an den IS-Einheiten, die in Syrien tätig sind, ist vielfach geschrumpft. Zugleich aber stieg das Kontingent der aus zentralasiatischen Republiken sowie dem chinesischen Autonomen Gebiet Xinjiang eingereisten Kämpfer an", so die Quelle. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886360dc36188c36f8b4596.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 17:59:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Britisches Atomprogramm: Was wusste Theresa May über den gescheiterten Raketenversuch vor Florida?</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45659-britisches-atomprogramm-theresa-may-trident-fail-rakete-florida-bbc-aufruestung-parlament/]]></link>
+        <guid>https://deutsch.rt.com/international/45659-britisches-atomprogramm-theresa-may-trident-fail-rakete-florida-bbc-aufruestung-parlament/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863327c36188de728b4585.jpg" /> Der Teststart einer Trident-Rakete von einem britischen U-Boot vor der Küste Floridas endete in einem Fiasko. Statt wie vorgesehen auf das offene Meer zu fliegen, visierte die Rakete das US-amerikanische Festland an. May verschwiegt den Vorfall, um die Glaubwürdigkeit des Atomwaffenprogramms nicht zu gefährden.
+
+]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58863327c36188de728b4585.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 17:58:14 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Bye, bye UN? US-Republikaner legen Gesetzentwurf zum Austritt der USA aus den Vereinten Nationen vor</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45658-usa-republikaner-gesetzesentwurf-austritt-vereinte-nationen-trump-israel-palaestina/]]></link>
+        <guid>https://deutsch.rt.com/international/45658-usa-republikaner-gesetzesentwurf-austritt-vereinte-nationen-trump-israel-palaestina/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588601fdc361881e378b4696.jpg" /> Die USA sind seit der Gründung der UN im Jahr 1945 Mitglied. Mehr noch: US-Präsident Franklin D. Roosevelt war eine der treibenden Kräfte hinter den Vereinten Nationen. Das Verhältnis der USA zu den UN war aber nie konfliktfrei. Kommt es jetzt zum definitiven Bruch?]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588601fdc361881e378b4696.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 17:09:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Nadija Sawtschenko nennt &quot;oberste Feinde des ukrainischen Volkes&quot; - darunter die eigene Regierung</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45656-nadija-sawtschenko-nennt-feind-nummer/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45656-nadija-sawtschenko-nennt-feind-nummer/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58862408c46188b5318b45ad.jpg" /> Die ukrainische Abgeordnete hat erklärt, dass sie die Wahrheit über die Situation im Donbass vermitteln will. "Ich möchte den Menschen die Wahrheit durch Emotionen mitteilen, damit sie anfangen, mit dem Herzen zu fühlen und mit dem Kopf zu denken, statt die Wut im Herzen zu verbergen, das Gehirn abzuschalten und der Propaganda unserer Regierung zuzuhören. Im Prinzip ist sie unser Feind Nummer zwei", sagte Sawtschenko gegenüber fraza.ua, wobei sie den ersten Platz an Russland vergab.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58862408c46188b5318b45ad.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 16:55:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Südeuropa bereitet Konkurrenz für Turkish Stream vor</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45654-sudeuropa-bereitet-ersatz-fur-turkish/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45654-sudeuropa-bereitet-ersatz-fur-turkish/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861e4bc36188e0758b457b.jpg" /> Am Montag sind die Energieminister Italiens, Griechenlands, Israels und Zyperns in Brüssel zusammengekommen, um die Baupläne für die neue Erdgas-Pipeline am Mittelmeerboden abzusprechen. Diese soll vom israelischen Erdgasfeld Leviathan durch das zyprische Vorkommen Aphrodite mit Ausgang zur italienischen Küste nahe der Stadt Brindisi verlegt werden. Laut der Zeitung Kathimerini können künftige Gaslieferungen an Italien und Griechenland das Interesse an russischen Rohstoffen abschwächen. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861e4bc36188e0758b457b.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 16:23:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Kleines Land, großer Schritt: Gambias Ex-Präsident flieht ohne Blutvergießen ins Exil</title>
+        <link><![CDATA[https://deutsch.rt.com/afrika/45653-kleines-land-grosser-schritt-gambia-rucktritt-yayha-jammeh/]]></link>
+        <guid>https://deutsch.rt.com/afrika/45653-kleines-land-grosser-schritt-gambia-rucktritt-yayha-jammeh/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885febdc46188da2b8b456c.jpg" /> Die Krise in Gambia dürfte ausgestanden sein. Ex-Präsident Yayha Jammeh hat nun doch die Macht abgegeben. Das Ende des Konflikts illustriert, dass die Länder des Kontinents zunehmend erfolgreich dabei sind, stabile Strukturen zu schaffen und zu erhalten.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885febdc46188da2b8b456c.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 16:13:09 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Zeugen unerwünscht: Obama befahl Last-Minute-Luftangriff auf eigene &quot;CIA-Rebellen&quot; in Syrien</title>
+        <link><![CDATA[https://deutsch.rt.com/der-nahe-osten/45651-zeugen-unerwunscht-obama-angriff-syrien-cia-rebellen/]]></link>
+        <guid>https://deutsch.rt.com/der-nahe-osten/45651-zeugen-unerwunscht-obama-angriff-syrien-cia-rebellen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886113fc36188551f8b464a.jpg" /> "Danke für nichts" war wohl das Motto hinter einem US-Bombenangriff auf ein Terrorcamp in den letzten Stunden der Amtszeit Barack Obamas. Er traf Terroristen von Al-Qaida – und solche, die Washington selbst für ihren Einsatz als "Rebellen" ausgebildet hatte.
+]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5886113fc36188551f8b464a.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 16:00:48 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Gambias abgewählter Präsident Jammeh zieht sich friedlich zurück, allerdings mit Staatskasse an Bord</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45652-gambiens-prasident-jammeh-zieht-zuruck/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45652-gambiens-prasident-jammeh-zieht-zuruck/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861c55c36188de728b4574.jpg" /> Der im Dezember 2016 abgewählte Präsident Gambiens, Yahya Jammeh, hat dem militärischen Druck der Westafrikanischen Wirtschaftsgemeinschaft  nachgegeben. Er übergab die Macht friedlich seinem Nachfolger, Adama Barrow, und verließ das Land. An Bord der Maschine, mit der er nach Äquatorialguinea weggeflogen ist, waren dabei fast alle Staatsgelder, berichtet die Nachrichtenagentur Associated Press.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861c55c36188de728b4574.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 15:59:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Trump-Administration sperrt alle spanischsprachigen Informationsquellen der US-Regierung</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45650-trump-administration-sperrt-alle-spanischsprachigen/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45650-trump-administration-sperrt-alle-spanischsprachigen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861266c46188b8318b458a.JPG" /> Am ersten Tag nach der Vereidigung von Donald Trump hat das Weiße Haus die spanische Version der offiziellen Regierungswebseite sowie alle seine Inhalte und Profile für spanischsprachige Leser in sozialen Netzwerken blockiert. Die Entscheidung setze die vorhin angedeutete Tendenz der neuen US-Administration fort,  berichtet die argentinische Zeitung La Nacion. Diese bestehe darin, den beinahe 55 Millionen Einwanderern aus Lateinamerika „die US-amerikanische Lebensweise beizubringen“.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58861266c46188b8318b458a.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 15:50:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Russische Langstreckenbomber zerstören IS-Waffenlager bei Deir ez-Zor</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45649-russische-langstreckenbomber-zerschlagen-is-waffenlager/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45649-russische-langstreckenbomber-zerschlagen-is-waffenlager/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588609fbc46188db2b8b4572.jpg" /> Sechs Langstreckenbomber vom Typ Tu-22M3 der russischen Luftstreitkräfte haben Angriffe auf die Leitstellen und Lager mit Waffen und Munition der Terrororganisation "Islamischer Staat" nahe der syrischen Stadt Deir ez-Zor ausgeübt. Darüber informierte das russische Verteidigungsministerium am Montag. Die Bombenflugzeuge wurden durch die Flieger des Typs Su-30SM und Su-35S beschützt. Nach Abschluss des Kampfeinsatzes kehrten alle russischen Flugzeuge zurück auf ihre Stützpunkte.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588609fbc46188db2b8b4572.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 14:58:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Fast alle Akteure in Syrien an einem Tisch: Friedensgespräche in Astana beginnen ohne US-Teilnahme</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45648-astana-friedensverhandlungen-syrien-russland-turkei-iran-eu/]]></link>
+        <guid>https://deutsch.rt.com/international/45648-astana-friedensverhandlungen-syrien-russland-turkei-iran-eu/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58860864c36188b51e8b4673.jpg" /> In der Hauptstadt Kasachstans haben am Montag die Friedensgespräche zum Krieg in Syrien begonnen. Die von der Russischen Föderation initiierten Verhandlungen haben alle Parteien des Konflikts an einen Tisch gebracht. Auch die Türkei und der Iran sind dabei.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58860864c36188b51e8b4673.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 14:45:45 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>&quot;Alternative Fakten&quot;: Verhältnis zwischen Trump und Mainstream-Medien eskaliert erneut</title>
+        <link><![CDATA[https://deutsch.rt.com/nordamerika/45647-trump-medien-usa/]]></link>
+        <guid>https://deutsch.rt.com/nordamerika/45647-trump-medien-usa/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885f8d2c36188f61b8b460b.jpg" /> In seiner Rede im CIA-Hauptquartier kritisierte Donald Trump erneut die Berichterstattung der US-Medien. Grund waren die seiner Ansicht nach falschen Angaben über die Zuschauerzahlen während seiner Amtseinführung. Die Konfrontation zwischen Trump und US-Mainstreammedien geht in eine neue Phase. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885f8d2c36188f61b8b460b.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 14:36:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Landwirte verstreuen eine Tonne Milchpulver auf EU-Ratsgebäude</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45646-landwirte-zerstreuen-tonne-milchpulver/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45646-landwirte-zerstreuen-tonne-milchpulver/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885fdc6c46188da2b8b4569.JPG" /> Die Milchproduzenten aus zehn EU-Ländern protestieren in Brüssel gegen die Politik der Union in dieser Branche. Mittels Gebläsen haben sie eine Tonne Milchpulver über den Sitz des EU-Rats verstreut. Damit wollen sie die heute tagenden EU-Landwirtschaftsminister auf die Überkapazitäten des Milchmarktes aufmerksam machen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885fdc6c46188da2b8b4569.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 13:59:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Bezahlte Proteste gegen Trump: Wie George Soros den US-Präsidenten stürzen will</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45645-proteste--trump-soros-ngo-organsiationen-farbenrevolution-washington-usa-boerse-verlust/]]></link>
+        <guid>https://deutsch.rt.com/international/45645-proteste--trump-soros-ngo-organsiationen-farbenrevolution-washington-usa-boerse-verlust/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885f84fc3618808288b463b.JPG" /> Bei den Anti-Trump Demonstrationen am Wochenende versammelten sich mehrere hunderttausend Menschen in Washington. Wie Recherchen der New York Times belegen, haben 50 teilnehmende Organisationen eine direkte Verbindung zum US-Investor George Soros. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885f84fc3618808288b463b.JPG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 13:37:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Türkei: Mord an Hrant Dink jährte sich zum zehnten Mal – Suche nach Hintermännern geht weiter </title>
+        <link><![CDATA[https://deutsch.rt.com/der-nahe-osten/45644-turkei-mord-an-hrant-dink/]]></link>
+        <guid>https://deutsch.rt.com/der-nahe-osten/45644-turkei-mord-an-hrant-dink/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885eff3c46188c1638b464d.jpg" /> Am 19. Januar 2007 erschoss ein minderjähriger Ultranationalist den türkisch-armenischen Schriftsteller Hrant Dink. Die Frage nach den Hintermännern des Mordes ist immer noch offen. Politische Verwerfungen überschatten die Ermittlungsbemühungen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885eff3c46188c1638b464d.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 13:04:43 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Francois Fillon zweifelt, dass die Russen unter Sanktionen ihr Haupt beugen</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45643-fillon-zweifelt-dass-russen-unter/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45643-fillon-zweifelt-dass-russen-unter/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ecfbc36188f61b8b45f7.jpg" /> Der französische Präsidentschaftskandidat und frühere Ministerpräsident Francois Fillon hat in einem Interview mit Le Monde für eine Wiederbelebung der Beziehungen zu Russland plädiert und Zweifel daran geäußert , dass die Russen durch Sanktionen zu beeindrucken sind. Fillon ist der Meinung, es sei naiv zu glauben, die Russen beugten ihr Haupt unter den Wirtschaftssanktionen. Zudem brauche Frankreich eine neue Wirtschaftspartnerschaft mit Russland.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ecfbc36188f61b8b45f7.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 12:59:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Samsung nennt Grund für Explosionen bei Galaxy Note 7</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45641-samsung-nennt-grund-fur-galaxy/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45641-samsung-nennt-grund-fur-galaxy/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ebe8c4618878548b4634.jpg" /> Der südkoreanische Konzern Samsung hat den Grund der Explosionen von Smartphones der Marke Galaxy Note 7 festgestellt. Nach Angaben des Unternehmens sollen Design- und Produktionsfehler bei den Batterien Explosionen verursacht haben. Dabei hat der Smartphone-Marktführer Probleme mit der Hardware und Software ausgeschlossen.  ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885ebe8c4618878548b4634.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 12:41:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>IS-Kämpfer verwandeln christliche Kirche im Irak in Stab zur Militärausbildung von Kindern </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45640-is-kampfer-verwandeln-christliche-kirche/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45640-is-kampfer-verwandeln-christliche-kirche/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885e12bc361881e378b466d.jpg" /> Eine christliche Kirche in der irakischen Stadt Tel Kaif ist zu einem IS-Stab zur militärischen Ausbildung von Kindern geworden, meldet Rudaw. Die meisten Kinder waren knapp 15 Jahre alt, viele von ihnen wurden heimlich aus Mossul nach Teil Kaif gebracht. „Der IS hat die Kirche in den Stab namens Abu Talha Al-Ansari (Gefolgsmann des Propheten Mohammed. – RT) verwandelt. Sie wussten, dass die Luftstreitkräfte die Kirchen nie angreift“, sagte ein Gesprächspartner des Portals. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885e12bc361881e378b466d.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 11:56:23 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>19 Hochhäuser in zehn Sekunden in China abgerissen [VIDEO]</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45639-19-hochhauser-in-zehn-sekunden/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45639-19-hochhauser-in-zehn-sekunden/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885d456c46188af608b4639.jpg" /> In der chinesischen Stadt Wuhan in der Provinz Hubei sind 19 Hochhäuser innerhalb von zehn Sekunden kontrolliert gesprengt. Das berichtet die Zeitung The Daily Mail. Eine Reihe aus 12-stöckigen Gebäuden wurde am Samstag gegen Mitternacht im Handumdrehen abgerissen. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885d456c46188af608b4639.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 11:25:39 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Türkische Militärs töten 65 IS-Terroristen nahe al-Bab</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45638-turkische-militars-toten-65-is/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45638-turkische-militars-toten-65-is/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885cfffc46188af608b4635.jpg" /> Türkische Militärs haben 65 Kämpfer der Terrormiliz Islamischer Staat getötet. Dutzende Terroristen wurden verletzt, berichtet die Nachrichtenagentur Reuters unter Berufung auf die Streitkräfte der Türkei. Die ganzen Verluste sollen die Terroristen, den türkischen Angaben nach, in den Kämpfen in der Stadt al-Bab während einer gemeinsamen Operation des türkischen Militärs und der Freien Syrischen Armee erlitten haben.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885cfffc46188af608b4635.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 10:43:33 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Estland wird mehr Cyber-Soldaten für die NATO ausbilden </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45637-estland-wird-cyber-soldaten-fur/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45637-estland-wird-cyber-soldaten-fur/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885c2c8c36188d30e8b45d0.jpg" /> Das estländische Verteidigungsministerium wird in nächster Zukunft das NATO-Kompetenzzentrum für Cyberabwehr in Tartu modernisieren. Das gab die Zeitung Iswestija bekannt. Das Zentrum gilt als Hauptort für NATO-Übungen und Ausbildung von Fachleuten im Bereich Cyberabwehr. Es wird für die Gelder der Allianz modernisiert, sagte der Sprecher des Verteidigungsministeriums, Andres Sang. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885c2c8c36188d30e8b45d0.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 10:29:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Mindestens 15 Menschen durch Tornados in den USA getötet</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45636-mindestens-15-menschen-durch-tornados/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45636-mindestens-15-menschen-durch-tornados/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885bca5c36188341f8b45e6.jpg" /> Durch Tornados sind in zwei US-Bundesstaaten innerhalb von 48 Stunden mindestens 15 Menschen getötet worden. Darüber berichtete der TV-Sender ABC am Sonntag. Viele Wohnhäuser wurden durch einen starken Wind zerstört, zahlreiche Bäume sowie Strommasten umgestoßen. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885bca5c36188341f8b45e6.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 09:43:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Baby-Boom in China – so viele Neugeborene wie seit 2000 nicht mehr </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45635-baby-boom-in-china-so/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45635-baby-boom-in-china-so/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885b090c4618826628b464c.jpg" /> Die Zwei-Kinder-Politik in China hat einen richtigen Baby-Boom im Land ausgelöst, meldet Reuters unter Berufung auf einen Regierungsbeamten. Im vergangenen Jahr sind in China 17,6 Millionen Kinder zur Welt gebracht worden, was ungefähr 1,4 Millionen weniger als der Durchschnitt von 2011-2015 ist. Im Jahr 2015 hatten die chinesischen Gesetzgeber die Ein-Kind-Politik abgeschafft. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885b090c4618826628b464c.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 09:03:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>US-Spionageabwehr soll Kontakte eines Trump-Beraters zu Russland untersuchen - Medien</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45634-us-spionageabwehr-soll-kontakte-trump/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45634-us-spionageabwehr-soll-kontakte-trump/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885a9b2c4618878548b4618.jpg" /> Agenten der US-Spionageabwehr sollen Kontakte des Nationalen Sicherheitsberaters des US-Präsidenten Donald Trump, Michael Flynn, zu russischen Amtspersonen geprüft haben. Das gab The Wall Street Journal bekannt. Unter anderem werden Flynns Telefonate mit dem russischen Botschafter in Washington, Sergei Kisljak, am 29. Dezember untersucht, als Barack Obama neue Sanktionen gegen Russland eingeführt hatte. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885a9b2c4618878548b4618.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 08:34:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Hacker verüben Cyberattacke auf NYT-Twitter und warnen vor russischem Raketenangriff auf die USA</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45633-hacker-veruben-cyberattacke-auf-nyt/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45633-hacker-veruben-cyberattacke-auf-nyt/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885a2a6c4618813648b4622.jpg" /> Am Sonntag ist der Twitter-Account von New York Times Video gehackt worden. Dabei haben die Hacker eine falsche Meldung über angebliche Attacke Russlands auf die Vereinigten Staaten gepostet. „Russland wird die USA mit Raketen angreifen“, hieß es im Tweet. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5885a2a6c4618813648b4622.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 08:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Frankreich: Hamon und Valls setzen sich bei Vorwahl der Sozialisten durch </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45632-frankreich-hamon-und-valls-setzen/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45632-frankreich-hamon-und-valls-setzen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58859c2ac3618808288b45d7.jpg" /> Am Sonntag hat die erste Vorwahlrunde von Frankreichs Sozialisten statt. Dabei haben der ehemalige Bildungsminister Benoît Hamon und Ex-Ministerpräsident Manuel Valls die meisten Stimmen erhalten. Hamon ist mit rund 35,8 Prozent der Wahlstimmen auf Platz eins gelandet, Valls hat etwa 31,4 Prozent der Stimmen gewonnen. Wer Präsidentschaftskandidat der Sozialisten wird, entscheidet die Stichwahl am kommenden Sonntag. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58859c2ac3618808288b45d7.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 07:30:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Fillon und Le Pen – Umfragen sehen die &quot;Russlandversteher&quot; in Frankreich vorn</title>
+        <link><![CDATA[https://deutsch.rt.com/europa/45520-fillon-und-le-pen-umfragen-frankreich/]]></link>
+        <guid>https://deutsch.rt.com/europa/45520-fillon-und-le-pen-umfragen-frankreich/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880b343c3618834488b456f.jpg" /> In Berlin und Brüssel steigt die Nervosität vor den bevorstehenden Präsidentschaftswahlen in Frankreich. Umfragen zufolge werden François Fillon und Marine Le Pen die Stichwahl erreichen. Beide stehen für ein Ende der Konfrontationspolitik gegenüber Russland. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880b343c3618834488b456f.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 07:00:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Über 500.000 Menschen in den USA sind obdachlos</title>
+        <link><![CDATA[https://deutsch.rt.com/nordamerika/45565-500000-obdachlose-usa-armut-trump-kalifornien-sillicon-valley/]]></link>
+        <guid>https://deutsch.rt.com/nordamerika/45565-500000-obdachlose-usa-armut-trump-kalifornien-sillicon-valley/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880db3cc3618834488b45a5.jpg" /> Wachsende Armut, hohe Obdachlosigkeit: US-Präsident Donald Trump übernimmt ein wirtschaftlich und sozial gespaltenes Land. In einigen Städten wie zum Beispiel in Flint, Michigan, leben rund 40 Prozent der Menschen unterhalb der Armutsgrenze.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880db3cc3618834488b45a5.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 06:40:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Neues aus den Unterklassen: Strukturelle Gewalt im Jobcenter </title>
+        <link><![CDATA[https://deutsch.rt.com/inland/45524-neues-aus-unterklassen-strukturelle-gewalt-jobcenter/]]></link>
+        <guid>https://deutsch.rt.com/inland/45524-neues-aus-unterklassen-strukturelle-gewalt-jobcenter/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880bf52c3618897488b45af.jpg" /> Klagen über Attacken gegen Jobcenter und deren Mitarbeiter häufen sich. Die Ämter schützen sich mit Sicherheitsdiensten. Aus heiterem Himmel kommen die Aggressionen nicht. Susan Bonath sprach mit Inge Hannemann und einer Hartz-IV-Betroffenen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880bf52c3618897488b45af.jpg" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 06:30:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Trolle gegen Elfen - Die tägliche Propaganda-Schlacht im Internet</title>
+        <link><![CDATA[https://deutsch.rt.com/international/45566-trolle-gegen-elfen-propaganda-usa-russland-litauen-trump-wahlen-medien-cyberkrieg/]]></link>
+        <guid>https://deutsch.rt.com/international/45566-trolle-gegen-elfen-propaganda-usa-russland-litauen-trump-wahlen-medien-cyberkrieg/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880e27ac3618834488b45ac.PNG" /> Laut Wikipedia bezeichnet man im Netzjargon eine Person als Troll, „die ihre Kommunikation im Internet auf Beiträge beschränkt, die auf emotionale Provokationen anderer Gesprächsteilnehmer zielt. Dies erfolgt mit der Motivation, eine Reaktion der anderen Teilnehmer zu erreichen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5880e27ac3618834488b45ac.PNG" type="image/jpeg" length="123"/>        <pubDate>Mon, 23 Jan 2017 06:20:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Venezuela emittiert neue senkrechte Geldscheine</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45631-venezuela-emittiert-neue-senkrechte-geldscheine/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45631-venezuela-emittiert-neue-senkrechte-geldscheine/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884f2b7c3618808288b45c9.jpg" /> Im Rahmen einer Finanzreform hat Venezuela neue vertikale Banknoten zum Nennwert von 500 bis 20.000 Bolívar in Verkehr gebracht. Darüber informierte BBC News. Bisher war der 100-Bolívar-Schein das teuerste Papiergeld im Land. Laut BBC werden 20.000 Bolívar auf dem venezolanischen Schwarzmarkt mittlerweile mit weniger als sechs US-Dollar gehandelt.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884f2b7c3618808288b45c9.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 16:51:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>AfD-Konferenz mit Parteivertretern aus ganz Europa sorgt in Koblenz für Kontroversen </title>
+        <link><![CDATA[https://deutsch.rt.com/inland/45626-afd-konferenz-mit-parteivertretern-aus/]]></link>
+        <guid>https://deutsch.rt.com/inland/45626-afd-konferenz-mit-parteivertretern-aus/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884ce10c36188d30e8b45a5.JPG" /> Der AfD-Landesvorsitzende Marcus Pretzell hat Vertreter der EU-Parlamantsfraktion „Europa der Nationen und der Freiheit“ am Samstag nach Koblenz eingeladen. Anwesend waren unter anderem die rechten Politiker Marine Le Pen aus Frankreich und Geerd Wilders aus den Niederlanden.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884ce10c36188d30e8b45a5.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 16:23:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Washington-Randalierer können bis zu zehn Jahren Gefängnis bekommen</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45630-washington-randalierer-konnen-bis-zu/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45630-washington-randalierer-konnen-bis-zu/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884ebd5c36188f61b8b45bd.JPG" /> Den Protestlern, die am Tag der Inauguration von Donald Trump in Washington festgenommen worden waren, wurden Massenunruhen zur Last gelegt. Dies meldete Associated Press. Dem Stab des Staatsanwaltes des District of Columbia zufolge entsprechen solche Anklagen dem Status eines Kapitalverbrechens, das eine Freiheitsstrafe von höchsten zehn Jahren bzw. eine Geldstrafe von bis zu 250.000 US-Dollar vorsieht. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884ebd5c36188f61b8b45bd.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 16:13:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Papst Franziskus warnt die Welt vor einem neuen Hitler</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45629-papst-franziskus-warnt-welt-vor/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45629-papst-franziskus-warnt-welt-vor/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884e24bc46188b2608b45ea.JPG" /> In einem Interview gegenüber der spanischen Zeitung El Pais hat der Bischof von Rom vor der Gefahr des Populismus und der politischen Krisen gewarnt, die die Menschen dazu veranlassen, für diejenigen ihre Stimmen abzugeben, die sie für „Erlöser“ halten. Letzten Endes münde das in Diktaturen gleich der des Dritten Reiches. Ebenso mahnte der Pontifex daran, dass Adolf Hitler „die Macht nicht ergriffen hat, sondern von seinem eigenen Volk gewählt wurde und dieses später vernichtete“.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884e24bc46188b2608b45ea.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 15:57:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Donald Trump plagiiert Obamas Inaugurationstorte</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45628-donald-trump-plagiiert-obamas-inaugurationstorte/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45628-donald-trump-plagiiert-obamas-inaugurationstorte/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884d87dc36188d30e8b45ae.JPG" /> Zur Inaugurationszeremonie von Donald Trump haben die Patissiers der Konditorei Buttercream Bakeshop den Auftrag bekommen, eine Kopie der Torte anzufertigen, die für denselben Anlass vor vier Jahren für den Ex-Präsidenten der USA Barack Obama zubereitet worden war. Darüber berichtete TMZ. „Obwohl wir am liebsten Originalentwürfe herstellen, wenn wir gefragt werden, die Arbeit von jemandem anderen zu wiederholen, sind wir sehr froh, wenn es von einem solchen Meisterwerk handelt“, erklärten sie.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884d87dc36188d30e8b45ae.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 15:19:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Russland kann britische Armee in einem Tag zerschlagen – Daily Mail</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45627-russland-kann-britische-armee-in/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45627-russland-kann-britische-armee-in/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884c9f8c46188b2608b45d6.jpg" /> Langjährige Kürzungen des Militärbudgets haben es für Großbritannien unmöglich gemacht, eine effektive Militärmacht zu bleiben. Zu dieser Schlussfolgerung kamen die Experten des Zentrums für historische Analyse und Konfliktforschung, schreibt die Zeitung Daily Mail. „Einsparungen im Verteidigungsbereich führen dazu, dass die einzige Kampfeinheit der britischen Armee an einem Nachmittag von einem solchen ‚kompetenten Feind’ wie Russland komplett zerstört werden kann“, so die Forscher.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884c9f8c46188b2608b45d6.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 14:50:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>US-Studenten werden Bier auf Mond brauen</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45625-us-studenten-stellen-fest-wie/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45625-us-studenten-stellen-fest-wie/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884bddfc3618808288b458c.jpg" /> Die Studenten der University of California, San Diego, haben festgestellt, wie man Bier auf dem Mond herstellen kann. Die jungen Ingenieure entwickelten eine spezielle Kapsel mit drei Kammern, die in einen Raumschiff geladen wird. Bei der Mondlandung soll der Inhalt der ersten zwei Behälter – das unfermentierte Ausgangsprodukt und Hefe- vermischt werden, so dass im dritten das erwünschte Getränk entsteht. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884bddfc3618808288b458c.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 13:48:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Polen: Panzergeschosse landen auf Straße nach Verkehrsunfall mit LKW der US-Armee</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45624-dutzende-panzergeschosse-landen-auf-strasse/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45624-dutzende-panzergeschosse-landen-auf-strasse/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884b60ec36188341f8b4588.jpg" /> Ein Lastwagen der US-amerikanischen Streitkräfte hat in der Woiwodschaft Lebus im Westen Polens einen Unfall erlitten, so dass die zu befördernde Panzermunition direkt auf die Autobahn ausgeschüttet wurde und diese blockierte, gibt TVN24 bekannt. Der Vertreterin der Polizei der Stadt Zielona Góra, Kamila Wydrych, zufolge sei das Fahrzeug ins Schleudern geraten und der Fahrer habe die Kontrolle über den LKW verloren. Beim Unfall wurde ein Mensch verletzt und ins Krankenhaus eingeliefert.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884b60ec36188341f8b4588.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 13:24:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Trump zur CIA: Die Medien sind unehrlich und wollen einen Keil zwischen uns treiben </title>
+        <link><![CDATA[https://deutsch.rt.com/nordamerika/45622-trump-zur-cia-medien-sind/]]></link>
+        <guid>https://deutsch.rt.com/nordamerika/45622-trump-zur-cia-medien-sind/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884a134c3618808288b4574.jpg" /> Der neue Präsident der Vereinigten Staaten Donald Trump hat Medienberichte zurückgewiesen, wonach er im Clinch mit dem Auslandsgeheimdienst CIA liegt. Bei seinem ersten Arbeitsbesuch stattete Trump am Samstag der CIA-Zentrale in Langley einen Besuch ab. Dem CIA versprach er seine vollste Unterstützung. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884a134c3618808288b4574.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 13:16:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Marine Le Pen erklärt Europa für tot </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45623-marine-le-pen-erklart-europa/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45623-marine-le-pen-erklart-europa/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884a398c36188f61b8b4596.jpg" /> Die Vorsitzende der Front National Marine Le Pen hat erklärt, dass sie die EU für eine lebensunfähige Organisation hält. „Die EU ist tot, weiß es aber noch nicht. Sie ist in allen Fragen durchgefallen. Wirtschaftlich: Sehr langsames Wachstum. Sozial: Die Armut wächst, und die Arbeitslosenquote ist sehr hoch. Sicherheit: Die EU ist unfähig, ihre Grenzen und ihre Länder vom islamistischen Terrorismus zu schützen. Wenn ein Experiment so scheitert, dann hat es sich erledigt“, sagte sie.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884a398c36188f61b8b4596.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 12:45:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Italienische Behörden wollen nach Karikatur zum Lawinensturz Prozess gegen Charlie Hebdo anstrengen</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45621-italienische-behorden-wollen-nach-karikatur/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45621-italienische-behorden-wollen-nach-karikatur/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58849d17c36188d30e8b458b.JPG" /> Die Behörden der italienischen Stadt Farindola, in dessen Umgebung mehrere Dutzend Gäste des Hotels Rigopiano nach einem Lawinenabgang unter den Schneemassen begraben wurden, wollen gegen das französische Satiremagazin Charlie Hebdo klagen. Dies gab der Bürgermeister Ilario Lacchetta an, nachdem die Zeitschrift eine Karikatur zum Unglück veröffentlicht hatte. Er habe vor, die Vorbereitung der Klage in die eigene Hand zu nehmen.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58849d17c36188d30e8b458b.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 12:13:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Französische Sozialisten stimmen über Präsidentschaftskandidaten ab </title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45620-franzosische-sozialisten-stimmen-uber-prasidentschaftskandidaten/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45620-franzosische-sozialisten-stimmen-uber-prasidentschaftskandidaten/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588493cec4618826628b45d3.JPG" /> In Frankreich haben die Vorwahlen für die Präsidentschaftskandidaten von der sozialistischen Partei begonnen. Unter den ersten Wählern gab der französische Premier Bernard Cazeneuve seine Stimme ab. Am Wahlkampf beteiligen sich insgesamt sieben Kandidaten. Laut Umfragen gehören mittlerweile der Ex-Ministerpräsident Manuel Valls, der ehemalige Wirtschafts- und Finanzminister Arnaud Montebourg sowie der ehemalige Bildungsminister Benoît Hamon zu den Favoriten des Wahlrennens. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588493cec4618826628b45d3.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 11:48:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Oberste Rada reicht Gesetzentwurf über Ausschließlichkeit der ukrainischen Sprache ein</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45619-oberste-rada-reicht-gesetzentwurf-uber/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45619-oberste-rada-reicht-gesetzentwurf-uber/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588490aec46188b2608b45ab.jpg" /> Im ukrainischen Parlament wurde der Gesetzentwurf „Über die Staatssprache“ registriert, der eine ausschließliche Anwendung der ukrainischen Sprache in allen Bereichen des öffentlichen Lebens vorsieht. Laut dem Dokument soll sie für alle Staatsorgane und Gemeinden, Bildungseinrichtungen, Medien sowie den Dienstleistungsbereich verbindlich werden. Eine Verletzung des Gesetzes werde einem versuchten Regierungssturz gleichgestellt und sieht Geldbußen oder eine strafrechtliche Verantwortung vor. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588490aec46188b2608b45ab.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 11:15:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Wirtschaftsminister: &quot;2017 werden alle Sektoren in Russland wachsen&quot;</title>
+        <link><![CDATA[https://deutsch.rt.com/wirtschaft/45573-wirtschaftsminister-2017-russland-sektoren/]]></link>
+        <guid>https://deutsch.rt.com/wirtschaft/45573-wirtschaftsminister-2017-russland-sektoren/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58822621c3618897498b4592.jpg" /> Die russische Wirtschaft wird im laufenden Jahr voraussichtlich um bis zu zwei Prozent wachsen. Das hat Russlands Minister für Wirtschaftsentwicklung, Maxim Oreschkin, im Gespräch mit RT bekannt gegeben. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58822621c3618897498b4592.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 11:10:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Frank-Walter Steinmeier zu Trumps Antritt: „Die alte Welt des 20. Jahrhunderts ist vorüber&quot;</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45618-frank-walter-steinmeier-zu-trumps/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45618-frank-walter-steinmeier-zu-trumps/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58848093c36188551f8b457a.jpg" /> Der Bundesaußenminister hat sich zum Amtsantritt des neuen US-Präsidenten geäußert: „Mit der Wahl Donald Trumps ist die alte Welt des 20. Jahrhunderts endgültig vorüber. Welche Ordnungsvorstellungen sich im 21. Jahrhundert durchsetzen werden, wie die Welt von morgen aussehen wird, ist nicht ausgemacht. Es ist völlig offen“, zitiert ihn Bild. Er fügte hinzu, dass Deutschland sich in Washington aufmerksame Zuhörer erhofft, die „wissen, dass auch große Länder Partner brauchen in dieser Welt“.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58848093c36188551f8b457a.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 10:35:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>ARD veröffentlicht neue TV-Doku zu Doping-Skandal</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45617-adr-veroffentlicht-neue-tv-doku/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45617-adr-veroffentlicht-neue-tv-doku/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588477cbc4618826628b4594.jpg" /> Am 22. Januar wird der deutsche Sender ARD einen neuen Dokumentarfilm mit dem Schwerpunkt auf Machenschaften rund um Doping vorführen, gibt TASS unter Berufung auf den Journalisten des Kanals, Hajo Seppelt, bekannt. Eine der Rollen wurde dem russischen Leichtathletiker Andrei Dmitrijew gewidmet. Zuvor teilte er mit, dass er die WADA-Whistleblower nicht für Verräter halte und nannte die Zulassung der russischen Weitspringerin Darja Klischina zu den Olympischen Spielen in Rio eine „Heuchelei“.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588477cbc4618826628b4594.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 09:56:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>USA wohnen Friedensverhandlungen zu Syrien in Astana nicht bei</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45616-usa-bleiben-bei-friedensverhandlungen-zu/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45616-usa-bleiben-bei-friedensverhandlungen-zu/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884732bc4618878548b4594.jpg" /> Die USA werden keine Delegation nach Astana zu den Syrien-Verhandlungen am 23. Januar entsenden, meldet Reuters unter Berufung auf das US-Außenministerium. Das Land werde allein vom Botschafter der Vereinigten Staaten in Kasachstan, George Krol, als Beobachter vertreten sein. „Hinsichtlich der Präsidenten-Inauguration und der unmittelbaren Erfordernisse des Überganges wird die Delegation aus Washington der Astana-Konferenz nicht beiwohnen“, verlauten die USA in einer offiziellen Mitteilung.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/5884732bc4618878548b4594.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 09:24:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Zugunglück in Indien fordert mindestens 32 Menschenleben</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45615-zugungluck-in-indien-fordert-mindestens/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45615-zugungluck-in-indien-fordert-mindestens/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588464f4c4618826628b4589.JPG" /> Im indischen Bundesstaat Andhra Pradesh sind am Samstag gegen 23:00 Uhr Ortszeit neun Wagen eines Zuges auf dem Weg nach Bhubaneswar entgleist. Dabei kamen mindestens 32 Menschen ums Leben, über 100 erlitten Verletzungen, berichtet The Times of India. Die Ursachen des Unfalls werden ermittelt. ]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/588464f4c4618826628b4589.JPG" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 08:46:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+    <item>
+        <title>Clinton bedankt sich bei über 2,5 Millionen Teilnehmerinnen der Frauenmärsche in den USA</title>
+        <link><![CDATA[https://deutsch.rt.com/newsticker/45614-clinton-bedankt-sich-bei-teilnehmerinnen/]]></link>
+        <guid>https://deutsch.rt.com/newsticker/45614-clinton-bedankt-sich-bei-teilnehmerinnen/</guid>
+        <description>
+            <![CDATA[<img alt="Preview" align="left" style="margin-right: 10px;" src="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58845c7dc4618813648b4568.jpg" /> Ex-Präsidentschaftskandidatin und Rivalin von Donald Trump, Hillary Clinton hat den "Frauenmarsch" in den USA unterstützt. "Danke dafür, dass ihr aufsteht, aussprecht und für unsere Werte marschiert. Dies ist wichtig, wie nie zuvor. Ich glaube, dass wir zusammen stärker sind", schrieb sie auf Twitter.]]>
+        </description>
+        <enclosure url="https://cdn.rt.com/deutsch/images/2017.01/thumbnail/58845c7dc4618813648b4568.jpg" type="image/jpeg" length="123"/>        <pubDate>Sun, 22 Jan 2017 08:10:00 +0100</pubDate>
+        <dc:creator>RT Deutsch</dc:creator>
+    </item>
+
+
+    </channel>
+</rss>
