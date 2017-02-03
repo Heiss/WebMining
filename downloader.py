@@ -2,6 +2,7 @@ import ssl, os, urllib.request, xml, time
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 import pandas as pd
+import difflib
 
 sites = []
 files = []
@@ -113,7 +114,11 @@ def execute():
 ## Ausfuehrung
 while True:
     startTime = int(time.time())
-    execute()
+    # execute()
+    
+    
+    break
+    
     diffTime = int(time.time()) - startTime
     waitTime = int(20 * 60 - diffTime / 1000)
     
