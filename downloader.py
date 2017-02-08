@@ -116,13 +116,9 @@ while True:
     startTime = int(time.time())
     # execute()
     
-    
-    break
-    
     diffTime = int(time.time()) - startTime
     waitTime = int(20 * 60 - diffTime / 1000)
     
     if waitTime > 0:
         print("Warte %smin ab %s" % (int(waitTime / 60), time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())))
     time.sleep(waitTime)
-        
