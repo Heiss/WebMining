@@ -93,5 +93,4 @@ ENV/
 *.csv
 dataStore
 *.iml
-database/data.db
 *.db

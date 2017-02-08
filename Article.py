@@ -24,28 +24,31 @@ class Article:
 
             curSoup = BeautifulSoup(content, 'html.parser')
 
+            # for easier if-conditions
+            diff_size = 0
+
             # check if that is not the first time that we saved sth for this article
             if row.Last_Data:
                 last_list = loads(row.Last_Data)
 
-                # check if the content changes since last time
-                if last_list[0] != curSoup.title.string or last_list[1] != curSoup.body.prettify(encoding="utf-8"):
-                    # get title, body and the difference between last_data and now
-                    diff = self.analyze_content(last_list[1], curSoup.body.prettify(encoding="utf-8"))
+                # get title, body and the difference between last_data and now
+                diff = self.analyze_content(last_list[1], curSoup.body.prettify(encoding="utf-8"))
+                diff_size = len(diff)
 
-                    # check if there are any difference
-                    if len(diff) > 0:
-                        # insert the difference into the database and update the last_data in site table
-                        # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
-                        conn.execute(
-                            data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=dumps(diff)))
+                # check if there are any difference
+                if diff_size > 0:
+                    # insert the difference into the database and update the last_data in site table
+                    # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
+                    conn.execute(
+                        data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=dumps(diff)))
 
-            # we dont need to save the meta shit
-            # FIXME: is this the way to work with json-encoding problems?
-            data_list = [curSoup.title.string, str(curSoup.body.prettify(encoding="utf-8"))]
-            conn.execute(
-                link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
-                    Last_Data=dumps(data_list)))
+            if not row.Last_Data or diff_size > 0:
+                # we dont need to save the meta shit
+                # FIXME: is this the way to work with json-encoding problems?
+                data_list = [curSoup.title.string, str(curSoup.body.prettify(encoding="utf-8"))]
+                conn.execute(
+                    link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
+                        Last_Data=dumps(data_list)))
 
     # download the given article
     def load_article(self, url):
