@@ -17,8 +17,8 @@ class WebMiner:
 
     def start(self):
         print("Start program at %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
-
         while self.is_running is True:
+            print("Run starts at %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
             time_start = int(time())
 
             self.loop()
