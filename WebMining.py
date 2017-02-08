@@ -49,7 +49,7 @@ class WebMiner:
 
 
 if __name__ == "__main__":
-    if argv[0]:
-        WebMiner(argv[0])
+    if argv[1]:
+        WebMiner(argv[1])
     else:
         WebMiner("database/data.db")
