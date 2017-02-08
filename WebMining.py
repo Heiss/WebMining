@@ -7,7 +7,7 @@ from sys import argv
 
 class WebMiner:
     def __init__(self, db):
-        self.engine = create_engine("sqlite:///database/" + db, echo=False)
+        self.engine = create_engine("sqlite:///" + db, echo=False)
         self.is_running = True
         self.start()
 
@@ -49,4 +49,7 @@ class WebMiner:
 
 
 if __name__ == "__main__":
-    WebMiner(argv[0])
+    if argv[0]:
+        WebMiner(argv[0])
+    else:
+        WebMiner("database/data.db")
