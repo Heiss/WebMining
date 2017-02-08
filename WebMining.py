@@ -7,7 +7,7 @@ from sys import argv
 
 class WebMiner:
     def __init__(self, db):
-        self.engine = create_engine("sqlite://database/" + db, echo=False)
+        self.engine = create_engine("sqlite:///database/" + db, echo=False)
         self.is_running = True
         self.start()
 
