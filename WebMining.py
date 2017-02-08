@@ -2,11 +2,12 @@ from sqlalchemy import create_engine
 from time import time, gmtime, strftime, sleep
 from Feed import Feed
 from Article import Article
+from sys import argv
 
 
 class WebMiner:
     def __init__(self, db):
-        self.engine = create_engine("sqlite:///database/" + db, echo=False)
+        self.engine = create_engine("sqlite://database/" + db, echo=False)
         self.is_running = True
         self.start()
 
@@ -46,5 +47,6 @@ class WebMiner:
         Article(self.engine).load_all_articles()
         print("Done")
 
+
 if __name__ == "__main__":
-    WebMiner("data.db")
+    WebMiner(argv[0])
