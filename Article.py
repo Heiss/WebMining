@@ -27,22 +27,22 @@ class Article:
             # check if that is not the first time that we saved sth for this article
             if row.Last_Data:
                 last_list = loads(row.Last_Data)
-                print(row.Last_Data)
-                print(last_list[1].prettify("utf-8"))
 
                 # check if the content changes since last time
-                if last_list[0] != curSoup.title.string or last_list[1] != curSoup.body:
+                if last_list[0] != curSoup.title.string or last_list[1] != curSoup.body.prettify(encoding="utf-8"):
                     # get title, body and the difference between last_data and now
-                    diff = self.analyze_content(last_list[1].encode("utf-8"), curSoup.body.prettify(encoding="utf-8"))
+                    diff = self.analyze_content(last_list[1], curSoup.body.prettify(encoding="utf-8"))
 
-                    # insert the difference into the database and update the last_data in site table
-                    # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
-                    conn.execute(
-                        data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=dumps(diff)))
+                    # check if there are any difference
+                    if len(diff) > 0:
+                        # insert the difference into the database and update the last_data in site table
+                        # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
+                        conn.execute(
+                            data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=dumps(diff)))
 
             # we dont need to save the meta shit
-            # TODO: Hier ist irgendwas mit der JSON-Encodierung fehlerhaft!
-            data_list = [curSoup.title.string, curSoup.body.prettify(encoding="utf-8")]
+            # FIXME: is this the way to work with json-encoding problems?
+            data_list = [curSoup.title.string, str(curSoup.body.prettify(encoding="utf-8"))]
             conn.execute(
                 link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
                     Last_Data=dumps(data_list)))
@@ -60,5 +60,13 @@ class Article:
 
     # analyze the 2 given strings
     def analyze_content(self, last_data, content):
+        # FIXME: this could be cause errors
         diff = ndiff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
-        return list(diff)
+
+        # list prints an error, if there are no differences
+        try:
+            diff = list(diff)
+        except TypeError:
+            diff = []
+
+        return diff
