@@ -3,6 +3,7 @@ from time import time, gmtime, strftime, sleep
 from Feed import Feed
 from Article import Article
 from sys import argv
+from urllib.error import HTTPError
 
 
 class WebMiner:
@@ -19,12 +20,20 @@ class WebMiner:
         print("Start program at %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
         while self.is_running is True:
             print("Run starts at %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
+
+            # standard time to wait
+            time_wait = 20 * 60
             time_start = int(time())
 
-            self.loop()
+            try:
+                self.loop()
+            except HTTPError as e:
+                print("\nError in urllib.urlopen. [internal server error?]" % (e.read()))
+                # reduce time to wait
+                time_wait = 5 * 60
 
             time_diff = int(time()) - time_start
-            time_wait = int(20 * 60 - time_diff / 1000)
+            time_wait = int(time_wait - time_diff / 1000)
 
             if time_wait > 0:
                 print("Wait %smin since %s" % (int(time_wait / 60), strftime("%Y-%m-%d %H:%M:%S", gmtime())))
@@ -49,7 +58,9 @@ class WebMiner:
 
 
 if __name__ == "__main__":
-    if argv[1]:
+    if len(argv) > 1:
         WebMiner(argv[1])
     else:
-        WebMiner("database/data.db")
+        print(
+            """Usage: python WebMining.py <PATH>
+            <PATH> : Provide a path to a SQLite3-file. Absolute starts with a leading Slash (/).""")
