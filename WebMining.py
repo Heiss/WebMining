@@ -33,7 +33,7 @@ class WebMiner:
                 time_wait = 5 * 60
 
             time_diff = int(time()) - time_start
-            time_wait = int(time_wait - time_diff / 1000)
+            time_wait = int(time_wait - time_diff)
 
             if time_wait > 0:
                 print("Wait %smin since %s" % (int(time_wait / 60), strftime("%Y-%m-%d %H:%M:%S", gmtime())))
