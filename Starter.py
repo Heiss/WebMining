@@ -1,15 +1,15 @@
 from WebMining import WebMiner
-from Manage import Manager
+from Manager import Manager
 from sys import argv
 
 if __name__ == "__main__":
     if len(argv) == 2:
         WebMiner(argv[1])
     if len(argv) == 4 and argv[1] == "db":
-        # TODO: implement the Manage.py and use it here
+        # TODO: implement the Manager.py and use it here
         Manager(argv[3], argv[2])
     if len(argv) == 5 and argv[1] == "feed":
-        # TODO: implement the Manage.py and use it here
+        # TODO: implement the Manager.py and use it here
         Manager(argv[3], argv[2], argv[4])
     else:
         print(
