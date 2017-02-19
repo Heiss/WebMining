@@ -3,7 +3,7 @@ import unittest
 from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
 from Article import Article
-from difflib import restore
+from DiffHelper import make_patch, apply_patch
 
 
 class Tester(unittest.TestCase):
@@ -12,9 +12,6 @@ class Tester(unittest.TestCase):
         with open('tests/test_true.html', 'r') as f:
             self.example_true = BeautifulSoup(''.join(f.readlines()), "lxml")
 
-        with open('tests/test_same.html', 'r') as f:
-            self.example_same = BeautifulSoup(''.join(f.readlines()), "lxml")
-
         with open('tests/test_false.html', 'r') as f:
             self.example_false = BeautifulSoup(''.join(f.readlines()), "lxml")
 
@@ -22,22 +19,26 @@ class Tester(unittest.TestCase):
 
     def test_Article_NotSame(self):
         art = Article(self.engine)
-        res = art.analyze_content(art.decode(self.example_false), art.decode(self.example_true))
-        res = [l for l in res if l.startswith('+ ') or l.startswith('- ')]
+        res = make_patch(art.decode(self.example_false), art.decode(self.example_true))
+        # res = [l for l in res if l.startswith('+ ') or l.startswith('- ')]
 
-        self.assertTrue(len(res) == 3)
+        self.assertTrue(len(list(res)) > 0)
 
     def test_Article_Same(self):
         art = Article(self.engine)
-        res = art.analyze_content(art.decode(self.example_same), art.decode(self.example_true))
-        res = [l for l in res if l.startswith('+ ') or l.startswith('- ')]
+        res = art.analyze_content(art.decode(self.example_true), art.decode(self.example_true))
+        # res = [l for l in res if l.startswith('+ ') or l.startswith('- ')]
 
-        self.assertTrue(len(res) == 0)
+        self.assertTrue(len(list(res)) == 0)
 
     def test_Article_Restore(self):
         art = Article(self.engine)
-        res = art.analyze_content(art.decode(self.example_false), art.decode(self.example_true))
-        rest = ''.join(restore(res, 1))
+
+        old = art.decode(self.example_false)
+        cur = art.decode(self.example_true)
+
+        res = make_patch(old, cur)
+        rest = apply_patch(cur, res, True)
 
         self.assertTrue(art.decode(self.example_false) == rest)
         self.assertFalse(art.decode(self.example_true) == rest)

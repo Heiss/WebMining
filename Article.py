@@ -2,9 +2,10 @@ import ssl
 from urllib import request
 from sqlalchemy import Table, MetaData
 from bs4 import BeautifulSoup
-from difflib import restore, unified_diff, ndiff
+from difflib import unified_diff
 from json import dumps, loads
 from datetime import datetime
+from DiffHelper import make_patch, apply_patch
 
 
 class Article:
@@ -64,7 +65,7 @@ class Article:
     # analyze the 2 given strings
     def analyze_content(self, last_data, content):
         # FIXME: this could be cause errors
-        diff = ndiff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
+        diff = unified_diff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
 
         # list prints an error, if there are no differences
         try:
@@ -73,3 +74,5 @@ class Article:
             diff = []
 
         return diff
+
+
