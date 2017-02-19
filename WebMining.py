@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 from time import time, gmtime, strftime, sleep
 from Feed import Feed
 from Article import Article
-from sys import argv
 from urllib.error import HTTPError
 
 
@@ -55,12 +54,3 @@ class WebMiner:
         print("Loading articles: ", end='', flush=True)
         Article(self.engine).load_all_articles()
         print("Done")
-
-
-if __name__ == "__main__":
-    if len(argv) > 1:
-        WebMiner(argv[1])
-    else:
-        print(
-            """Usage: python WebMining.py <PATH>
-            <PATH> : Provide a path to a SQLite3-file. Absolute starts with a leading Slash (/).""")

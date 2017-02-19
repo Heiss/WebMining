@@ -2,7 +2,7 @@ import ssl
 from urllib import request
 from sqlalchemy import Table, MetaData
 from bs4 import BeautifulSoup
-from difflib import ndiff, restore
+from difflib import restore, unified_diff, ndiff
 from json import dumps, loads
 from datetime import datetime
 
@@ -10,6 +10,9 @@ from datetime import datetime
 class Article:
     def __init__(self, conn):
         self.engine = conn
+
+    def decode(self, cur_soup):
+        return cur_soup.body.prettify("ascii").decode()
 
     def load_all_articles(self):
         meta = MetaData()
@@ -24,15 +27,12 @@ class Article:
 
             curSoup = BeautifulSoup(content, 'html.parser')
 
-            # for easier if-conditions
-            diff_size = 0
-
             # check if that is not the first time that we saved sth for this article
             if row.Last_Data:
                 last_list = loads(row.Last_Data)
 
                 # get title, body and the difference between last_data and now
-                diff = self.analyze_content(last_list[1], curSoup.body.prettify(encoding="utf-8"))
+                diff = self.analyze_content(last_list[1], self.decode(curSoup))
                 diff_size = len(diff)
 
                 # check if there are any difference
@@ -42,10 +42,10 @@ class Article:
                     conn.execute(
                         data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=dumps(diff)))
 
-            if not row.Last_Data or diff_size > 0:
+            if not row.Last_Data:
                 # we dont need to save the meta shit
                 # FIXME: is this the way to work with json-encoding problems?
-                data_list = [curSoup.title.string, str(curSoup.body.prettify(encoding="utf-8"))]
+                data_list = [curSoup.title.string, self.decode(curSoup)]
                 conn.execute(
                     link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
                         Last_Data=dumps(data_list)))
