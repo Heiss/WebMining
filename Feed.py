@@ -84,7 +84,7 @@ class Feed:
 
         req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
         wp = request.urlopen(req)
-        pw = wp.read().decode('utf-8')
+        pw = wp.read()
 
         return pw
 

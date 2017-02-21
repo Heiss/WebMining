@@ -5,15 +5,42 @@ from bs4 import BeautifulSoup
 from difflib import unified_diff
 from json import dumps, loads
 from datetime import datetime
-from DiffHelper import make_patch, apply_patch
+from DiffHelper import make_patch
+
+
+def decode(cur_soup):
+    return cur_soup.prettify("ascii").decode()
+
+
+def load_article(url):
+    # download the given article
+    # For https compatibility
+    ssl._create_default_https_context = ssl._create_unverified_context
+
+    req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    wp = request.urlopen(req)
+    pw = wp.read()
+
+    return pw
+
+
+def analyze_content(last_data, content):
+    # analyze the 2 given strings
+    # FIXME: this could be cause errors
+    diff = unified_diff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
+
+    # list prints an error, if there are no differences
+    try:
+        diff = list(diff)
+    except TypeError:
+        diff = []
+
+    return diff
 
 
 class Article:
     def __init__(self, conn):
         self.engine = conn
-
-    def decode(self, cur_soup):
-        return cur_soup.body.prettify("ascii").decode()
 
     def load_all_articles(self):
         meta = MetaData()
@@ -24,55 +51,38 @@ class Article:
 
         result = conn.execute(link_table.select())
         for row in result:
-            content = self.load_article(row.URL)
+            content = load_article(row.URL)
 
             curSoup = BeautifulSoup(content, 'html.parser')
 
             # check if that is not the first time that we saved sth for this article
             if row.Last_Data:
-                last_list = loads(row.Last_Data)
+                last_data = row.Last_Data
 
                 # get title, body and the difference between last_data and now
-                diff = self.analyze_content(last_list[1], self.decode(curSoup))
-                diff_size = len(diff)
+                prettitfy = decode(curSoup)
+                diff = make_patch(last_data, prettitfy)
+                diff_size = len(diff.split("\n"))
 
-                # check if there are any difference
-                if diff_size > 0:
+                # check if there are any difference (Also an empty string is 1)
+                if diff_size > 1:
                     # insert the difference into the database and update the last_data in site table
                     # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
-                    conn.execute(
-                        data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=dumps(diff)))
+                    self.insertData(conn, data_table, diff, row)
+                    self.updateLastData(conn, prettitfy, link_table, row)
 
-            if not row.Last_Data:
+            else:
                 # we dont need to save the meta shit
                 # FIXME: is this the way to work with json-encoding problems?
-                data_list = [curSoup.title.string, self.decode(curSoup)]
-                conn.execute(
-                    link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
-                        Last_Data=dumps(data_list)))
+                self.updateLastData(conn, decode(curSoup), link_table, row)
 
-    # download the given article
-    def load_article(self, url):
-        # For https compatibility
-        ssl._create_default_https_context = ssl._create_unverified_context
+        conn.close()
 
-        req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        wp = request.urlopen(req)
-        pw = wp.read()
+    def insertData(self, conn, data_table, prettifyString, row):
+        conn.execute(
+            data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=prettifyString))
 
-        return pw
-
-    # analyze the 2 given strings
-    def analyze_content(self, last_data, content):
-        # FIXME: this could be cause errors
-        diff = unified_diff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
-
-        # list prints an error, if there are no differences
-        try:
-            diff = list(diff)
-        except TypeError:
-            diff = []
-
-        return diff
-
-
+    def updateLastData(self, conn, prettifyString, link_table, row):
+        conn.execute(
+            link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
+                Last_Data=prettifyString))
