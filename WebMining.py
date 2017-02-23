@@ -36,8 +36,8 @@ class WebMiner:
 
             if time_wait > 0:
                 print("Wait %smin since %s" % (int(time_wait / 60), strftime("%Y-%m-%d %H:%M:%S", gmtime())))
+                sleep(time_wait)
                 print("")
-            sleep(time_wait)
 
     def loading_feeds(self):
         feed = Feed(self.engine)
