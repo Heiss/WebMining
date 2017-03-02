@@ -10,6 +10,8 @@ class WebMiner:
         self.engine = create_engine("sqlite:///" + db, echo=False)
         self.is_running = True
         self.start()
+        self.wait_time = 60
+        self.wait_time_on_error = 5
 
     def loop(self):
         self.loading_feeds()
@@ -21,7 +23,7 @@ class WebMiner:
             print("Run starts at %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
 
             # standard time to wait
-            time_wait = 20 * 60
+            time_wait = self.waittime * 60
             time_start = int(time())
 
             try:
@@ -29,7 +31,7 @@ class WebMiner:
             except HTTPError as e:
                 print("\nError in urllib.urlopen. [internal server error?]" % (e.read()))
                 # reduce time to wait
-                time_wait = 5 * 60
+                time_wait = self.wait_time_on_error * 60
 
             time_diff = int(time()) - time_start
             time_wait = int(time_wait - time_diff)

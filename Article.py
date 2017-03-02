@@ -60,8 +60,8 @@ class Article:
                 last_data = row.Last_Data
 
                 # get title, body and the difference between last_data and now
-                prettitfy = decode(curSoup)
-                diff = make_patch(last_data, prettitfy)
+                prettify = decode(curSoup)
+                diff = make_patch(last_data, prettify)
                 diff_size = len(diff.split("\n"))
 
                 # check if there are any difference (Also an empty string is 1)
@@ -69,7 +69,7 @@ class Article:
                     # insert the difference into the database and update the last_data in site table
                     # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
                     self.insertData(conn, data_table, diff, row)
-                    self.updateLastData(conn, prettitfy, link_table, row)
+                    self.updateLastData(conn, prettify, link_table, row)
 
             else:
                 # we dont need to save the meta shit
