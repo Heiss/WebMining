@@ -9,9 +9,11 @@ class WebMiner:
     def __init__(self, db):
         self.engine = create_engine("sqlite:///" + db, echo=False)
         self.is_running = True
-        self.start()
+
         self.wait_time = 60
         self.wait_time_on_error = 5
+
+        self.start()
 
     def loop(self):
         self.loading_feeds()
