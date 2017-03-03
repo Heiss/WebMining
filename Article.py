@@ -3,9 +3,9 @@ from urllib import request
 from sqlalchemy import Table, MetaData
 from bs4 import BeautifulSoup
 from difflib import unified_diff
-from json import dumps, loads
 from datetime import datetime
 from DiffHelper import make_patch
+from urllib.error import HTTPError
 
 
 def decode(cur_soup):
@@ -38,6 +38,12 @@ def analyze_content(last_data, content):
     return diff
 
 
+def removeGarbage(curSoup):
+    [x.decompose() for x in curSoup.findAll('script')]
+    [x.decompose() for x in curSoup.findAll('style')]
+    return curSoup
+
+
 class Article:
     def __init__(self, conn):
         self.engine = conn
@@ -51,7 +57,12 @@ class Article:
 
         result = conn.execute(link_table.select())
         for row in result:
-            content = load_article(row.URL)
+            try:
+                content = load_article(row.URL)
+            except HTTPError as e:
+                # if there is an error, we continue the the work
+                print("\nError in urllib.urlopen: [internal server error]" % (e.read()))
+                continue
 
             curSoup = BeautifulSoup(content, 'html.parser')
 
@@ -60,7 +71,7 @@ class Article:
                 last_data = row.Last_Data
 
                 # get title, body and the difference between last_data and now
-                prettify = decode(curSoup)
+                prettify = decode(removeGarbage(curSoup))
                 diff = make_patch(last_data, prettify)
                 diff_size = len(diff.split("\n"))
 
