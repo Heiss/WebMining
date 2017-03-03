@@ -23,7 +23,7 @@ class WebMiner:
             print("Run starts at %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
 
             # standard time to wait
-            time_wait = self.waittime * 60
+            time_wait = self.wait_time * 60
             time_start = int(time())
 
             try:
