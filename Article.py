@@ -61,7 +61,7 @@ class Article:
                 content = load_article(row.URL)
             except HTTPError as e:
                 # if there is an error, we continue the the work
-                print("\nError in urllib.urlopen: [internal server error for site %s:\n %s]" % (row.URL, e.read()))
+                print("\nError in urllib.urlopen: [%s]:  %s" % (row.URL, e.read()))
                 continue
 
             curSoup = BeautifulSoup(content, 'html.parser')
