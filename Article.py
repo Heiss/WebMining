@@ -8,6 +8,7 @@ from DiffHelper import make_patch
 from urllib.error import HTTPError
 from tqdm import tqdm
 from sqlalchemy.orm import sessionmaker
+from time import gmtime, strftime
 
 
 def decode(cur_soup):
@@ -46,6 +47,17 @@ def removeGarbage(curSoup):
     return curSoup
 
 
+def insertData(conn, data_table, prettifyString, row):
+    conn.execute(
+        data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=prettifyString))
+
+
+def updateLastData(conn, prettifyString, link_table, row):
+    conn.execute(
+        link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
+            Last_Data=prettifyString))
+
+
 class Article:
     def __init__(self, conn):
         self.engine = conn
@@ -70,8 +82,10 @@ class Article:
             try:
                 content = load_article(row.URL)
             except HTTPError as e:
-                # if there is an error, we continue the the work
-                print("\nError in urllib.urlopen: [%s]:  %s" % (row.URL, e.read()))
+                # if there is an error, we continue with the next URL
+                f1 = open('./error.log', 'w+')
+                f1.write("%s : Error in urllib.urlopen: [ID: %s, URL: %s]:  %s" % (
+                    strftime("%Y-%m-%d %H:%M:%S", gmtime()), row.Site_ID, row.URL, e.read()))
                 continue
 
             curSoup = removeGarbage(BeautifulSoup(content, 'html.parser'))
@@ -89,21 +103,12 @@ class Article:
                 if diff_size > 1:
                     # insert the difference into the database and update the last_data in site table
                     # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
-                    self.insertData(conn, data_table, diff, row)
-                    self.updateLastData(conn, prettify, link_table, row)
+                    insertData(conn, data_table, diff, row)
+                    updateLastData(conn, prettify, link_table, row)
 
             else:
                 # we dont need to save the meta shit
                 # FIXME: is this the way to work with json-encoding problems?
-                self.updateLastData(conn, decode(curSoup), link_table, row)
+                updateLastData(conn, decode(curSoup), link_table, row)
 
         conn.close()
-
-    def insertData(self, conn, data_table, prettifyString, row):
-        conn.execute(
-            data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=prettifyString))
-
-    def updateLastData(self, conn, prettifyString, link_table, row):
-        conn.execute(
-            link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
-                Last_Data=prettifyString))

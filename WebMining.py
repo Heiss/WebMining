@@ -2,7 +2,6 @@ from sqlalchemy import create_engine
 from time import time, gmtime, strftime, sleep
 from Feed import Feed
 from Article import Article
-from urllib.error import HTTPError
 
 
 class WebMiner:
@@ -30,8 +29,9 @@ class WebMiner:
 
             try:
                 self.loop()
-            except HTTPError as e:
-                print("\nError in urllib.urlopen. [internal server error?]" % (e.read()))
+            except Exception as e:
+                f1 = open('./error.log', 'w+')
+                f1.write("%s : Error appeared: %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime()), e))
                 # reduce time to wait
                 time_wait = self.wait_time_on_error * 60
 
