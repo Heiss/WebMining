@@ -46,7 +46,7 @@ class WebMiner:
     def loading_feeds(self):
         feed = Feed(self.engine)
 
-        print("Check for new feeds:", end="", flush=True)
+        print("Check for new feeds: ", end="", flush=True)
         feed.load_new_feeds_from_file("sites")
         print("Done")
 

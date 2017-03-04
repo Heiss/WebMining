@@ -65,6 +65,8 @@ class Article:
 
         pbar = tqdm(result, total=count)
         for row in pbar:
+            pbar.set_description(desc=str(row.Site_ID))
+
             try:
                 content = load_article(row.URL)
             except HTTPError as e:
