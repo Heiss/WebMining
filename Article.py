@@ -65,7 +65,7 @@ class Article:
 
         pbar = tqdm(result, total=count)
         for row in pbar:
-            pbar.set_description(desc=str(row.Site_ID))
+            pbar.set_description(desc="Site_ID: %s" % (str(row.Site_ID)))
 
             try:
                 content = load_article(row.URL)
