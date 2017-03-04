@@ -1,11 +1,13 @@
 import ssl
 from urllib import request
-from sqlalchemy import Table, MetaData
+from sqlalchemy import Table, MetaData, func
 from bs4 import BeautifulSoup
 from difflib import unified_diff
 from datetime import datetime
 from DiffHelper import make_patch
 from urllib.error import HTTPError
+from tqdm import tqdm
+from sqlalchemy.orm import sessionmaker
 
 
 def decode(cur_soup):
@@ -55,8 +57,14 @@ class Article:
         data_table = Table('data', meta, autoload=True, autoload_with=self.engine)
         conn = self.engine.connect()
 
+        Session = sessionmaker(bind=self.engine)
+        session = Session()
+        count = session.query(func.count('*')).select_from(link_table).scalar()
+
         result = conn.execute(link_table.select())
-        for row in result:
+
+        pbar = tqdm(result, total=count)
+        for row in pbar:
             try:
                 content = load_article(row.URL)
             except HTTPError as e:
@@ -64,14 +72,14 @@ class Article:
                 print("\nError in urllib.urlopen: [%s]:  %s" % (row.URL, e.read()))
                 continue
 
-            curSoup = BeautifulSoup(content, 'html.parser')
+            curSoup = removeGarbage(BeautifulSoup(content, 'html.parser'))
 
             # check if that is not the first time that we saved sth for this article
             if row.Last_Data:
                 last_data = row.Last_Data
 
                 # get title, body and the difference between last_data and now
-                prettify = decode(removeGarbage(curSoup))
+                prettify = decode(curSoup)
                 diff = make_patch(last_data, prettify)
                 diff_size = len(diff.split("\n"))
 

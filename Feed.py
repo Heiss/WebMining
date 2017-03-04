@@ -1,9 +1,38 @@
 from os import getcwd
-from sqlalchemy import Table, MetaData
+from sqlalchemy import Table, MetaData, func
 from urllib.parse import urlparse
 from urllib import request
 import ssl
 import xml.etree.ElementTree as ET
+from tqdm import tqdm
+from sqlalchemy.orm import sessionmaker
+
+
+def analyze_xml(xmlcontent):
+    root = ET.fromstring(xmlcontent)
+
+    links = []
+    for child in root[0]:
+        if child.tag != "item":
+            continue
+
+        for it in child:
+            if it.tag == "link":
+                links.append(it.text)
+                break
+
+    return links
+
+
+def load_url(url):
+    # For https compatibility
+    ssl._create_default_https_context = ssl._create_unverified_context
+
+    req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    wp = request.urlopen(req)
+    pw = wp.read()
+
+    return pw
 
 
 class Feed:
@@ -20,15 +49,22 @@ class Feed:
 
         links = []
 
+        Session = sessionmaker(bind=self.engine)
+        session = Session()
+        count = session.query(func.count('*')).select_from(link_table).scalar()
+
         # read all feed-urls to analyze them
         result = conn.execute(website_table.select())
         idx = 0
+
         for feed in result:
-            content = self.load_url(feed.Feed)
-            links = links + self.analyze_xml(content)
+            content = load_url(feed.Feed)
+            links = links + analyze_xml(content)
             result2 = conn.execute(link_table.select())
 
-            for row in result2:
+            pbar = tqdm(result2, total=count, desc=feed.Name)
+
+            for row in pbar:
                 try:
                     idx2 = links.index(row.URL)
                 except ValueError:
@@ -77,28 +113,3 @@ class Feed:
     def load_file(self, file):
         filename = getcwd() + "/" + file
         self.sites = [line.rstrip('\n') for line in open(filename)]
-
-    def load_url(self, url):
-        # For https compatibility
-        ssl._create_default_https_context = ssl._create_unverified_context
-
-        req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        wp = request.urlopen(req)
-        pw = wp.read()
-
-        return pw
-
-    def analyze_xml(self, xmlcontent):
-        root = ET.fromstring(xmlcontent)
-
-        links = []
-        for child in root[0]:
-            if child.tag != "item":
-                continue
-
-            for it in child:
-                if it.tag == "link":
-                    links.append(it.text)
-                    break
-
-        return links
