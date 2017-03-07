@@ -28,13 +28,13 @@ class WebMiner:
             time_start = int(time())
 
             f1 = open('./error.log', 'a')
-            f1.write("%s : New session started..." % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
+            f1.write("%s : New session started...\n" % (strftime("%Y-%m-%d %H:%M:%S", gmtime())))
 
             try:
                 self.loop()
             except Exception as e:
                 f1 = open('./error.log', 'a')
-                f1.write("%s : Error appeared: %s" % (strftime("%Y-%m-%d %H:%M:%S", gmtime()), e))
+                f1.write("%s : Error appeared: %s \n" % (strftime("%Y-%m-%d %H:%M:%S", gmtime()), e))
                 # reduce time to wait
                 time_wait = self.wait_time_on_error * 60
 
