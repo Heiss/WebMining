@@ -1,6 +1,6 @@
 import ssl
 from urllib import request
-from sqlalchemy import Table, MetaData, func
+from sqlalchemy import Table, MetaData, func, select
 from bs4 import BeautifulSoup
 from difflib import unified_diff
 from datetime import datetime
@@ -72,10 +72,11 @@ class Article:
         Session = sessionmaker(bind=self.engine)
         session = Session()
         count = session.query(func.count('*')).select_from(link_table).scalar()
+        off = count
 
-        result = conn.execute(link_table.select())
+        result = conn.execute(select([link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data]).order_by(link_table.c.Site_ID.asc()).limit(off).offset(count - off))
 
-        pbar = tqdm(result, total=count)
+        pbar = tqdm(result.fetchall())
         for row in pbar:
             pbar.set_description(desc="Site_ID: %s" % (str(row.Site_ID)))
 
