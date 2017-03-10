@@ -1,9 +1,9 @@
 import ssl
 from urllib import request
-from sqlalchemy import Table, MetaData, func, select
+from sqlalchemy import Table, MetaData, func, select, and_
 from bs4 import BeautifulSoup
 from difflib import unified_diff
-from datetime import datetime
+from datetime import datetime, timedelta
 from DiffHelper import make_patch
 from urllib.error import HTTPError
 from tqdm import tqdm
@@ -82,7 +82,7 @@ class ArticlesThread(Thread):
         # count = session.query(func.count('*')).select_from(link_table).scalar()
 
         sql = select([link_table.c.Website_ID, link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data]).where(
-            link_table.c.Website_ID == self.website_id).order_by(link_table.c.Site_ID.desc()).limit(self.limit)
+            and_(link_table.c.Website_ID == self.website_id, link_table)).order_by(link_table.c.Site_ID.desc()).limit(self.limit)
         result = session.execute(sql)
 
         # progressbar = result.fetchall()
