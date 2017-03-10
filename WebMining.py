@@ -58,4 +58,4 @@ class WebMiner:
 
     def loading_articles(self):
         print("Loading articles: ")
-        Article(self.engine).load_all_articles()
+        Article(self.engine).check_articles_limited()

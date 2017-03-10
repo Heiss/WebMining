@@ -62,19 +62,21 @@ class Article:
     def __init__(self, conn):
         self.engine = conn
 
-    def load_all_articles(self):
+    def load_all_articles(self, website_id, limit):
         meta = MetaData()
 
         link_table = Table('link', meta, autoload=True, autoload_with=self.engine)
         data_table = Table('data', meta, autoload=True, autoload_with=self.engine)
         conn = self.engine.connect()
 
-        Session = sessionmaker(bind=self.engine)
-        session = Session()
-        count = session.query(func.count('*')).select_from(link_table).scalar()
-        off = count
+        # Session = sessionmaker(bind=self.engine)
+        # session = Session()
+        # count = session.query(func.count('*')).select_from(link_table).scalar()
+        off = limit
 
-        result = conn.execute(select([link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data]).order_by(link_table.c.Site_ID.asc()).limit(off).offset(count - off))
+        sql = select([link_table.c.Website_ID, link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data]).where(
+            link_table.c.Website_ID == website_id).order_by(link_table.c.Site_ID.desc()).limit(off)
+        result = conn.execute(sql)
 
         pbar = tqdm(result.fetchall())
         for row in pbar:
@@ -113,3 +115,18 @@ class Article:
                 updateLastData(conn, decode(curSoup), link_table, row)
 
         conn.close()
+
+    # loads the articles with a limit in sql query for every feed.
+    def check_articles_limited(self):
+        meta = MetaData()
+
+        website_table = Table('website', meta, autoload=True, autoload_with=self.engine)
+        conn = self.engine.connect()
+        result = conn.execute(website_table.select()).fetchall()
+        conn.close()
+
+        # Session = sessionmaker(bind=self.engine)
+        # session = Session()
+
+        for feed in result:
+            self.load_all_articles(website_id=feed.Website_ID, limit=50)
