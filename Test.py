@@ -2,7 +2,7 @@
 import unittest
 from bs4 import BeautifulSoup
 from sqlalchemy import create_engine
-from Article import decode, Article
+from ArticlesThread import decode, Article
 from DiffHelper import make_patch, apply_patch
 
 

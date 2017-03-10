@@ -6,6 +6,7 @@ import ssl
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
 from sqlalchemy.orm import sessionmaker
+from ArticlesThread import ArticlesThread
 
 
 def analyze_xml(xmlcontent):
@@ -113,3 +114,23 @@ class Feed:
     def load_file(self, file):
         filename = getcwd() + "/" + file
         self.sites = [line.rstrip('\n') for line in open(filename)]
+
+    # loads the articles with a limit in sql query for every feed.
+    def check_articles_limited(self):
+        meta = MetaData()
+
+        website_table = Table('website', meta, autoload=True, autoload_with=self.engine)
+        conn = self.engine.connect()
+        result = conn.execute(website_table.select()).fetchall()
+        conn.close()
+
+        worker = []
+
+        for feed in result:
+            # Create two threads as follows
+            t = ArticlesThread(conn=self.engine, website_id=feed.Website_ID, limit=50)
+            worker.append(t)
+            t.start()
+
+        for t in worker:
+            t.join()

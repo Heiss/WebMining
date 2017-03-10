@@ -9,6 +9,7 @@ from urllib.error import HTTPError
 from tqdm import tqdm
 from sqlalchemy.orm import sessionmaker
 from time import gmtime, strftime
+from threading import Thread
 
 
 def decode(cur_soup):
@@ -58,29 +59,37 @@ def updateLastData(conn, prettifyString, link_table, row):
             Last_Data=prettifyString))
 
 
-class Article:
-    def __init__(self, conn):
+class ArticlesThread(Thread):
+    def __init__(self, conn, website_id, limit):
+        Thread.__init__(self)
         self.engine = conn
+        self.website_id = website_id
+        self.limit = limit
 
-    def load_all_articles(self, website_id, limit):
+    def run(self):
+        # print("Starting Thread for Website_ID: %s" % self.website_id)
+        self.load_all_articles()
+        # print("Finished Thread for Website_ID: %s" % self.website_id)
+
+    def load_all_articles(self):
         meta = MetaData()
 
         link_table = Table('link', meta, autoload=True, autoload_with=self.engine)
         data_table = Table('data', meta, autoload=True, autoload_with=self.engine)
-        conn = self.engine.connect()
+        # conn = self.engine.connect()
 
-        # Session = sessionmaker(bind=self.engine)
-        # session = Session()
+        Session = sessionmaker(bind=self.engine)
+        session = Session()
         # count = session.query(func.count('*')).select_from(link_table).scalar()
-        off = limit
 
         sql = select([link_table.c.Website_ID, link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data]).where(
-            link_table.c.Website_ID == website_id).order_by(link_table.c.Site_ID.desc()).limit(off)
-        result = conn.execute(sql)
+            link_table.c.Website_ID == self.website_id).order_by(link_table.c.Site_ID.desc()).limit(self.limit)
+        result = session.execute(sql)
 
-        pbar = tqdm(result.fetchall())
-        for row in pbar:
-            pbar.set_description(desc="Site_ID: %s" % (str(row.Site_ID)))
+        # progressbar = result.fetchall()
+        progressbar = tqdm(result.fetchall())
+        for row in progressbar:
+            # progressbar.set_description(desc="Site_ID: %s" % (str(row.Site_ID)))
 
             try:
                 content = load_article(row.URL)
@@ -106,27 +115,12 @@ class Article:
                 if diff_size > 1:
                     # insert the difference into the database and update the last_data in site table
                     # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
-                    insertData(conn, data_table, diff, row)
-                    updateLastData(conn, prettify, link_table, row)
+                    insertData(session, data_table, diff, row)
+                    updateLastData(session, prettify, link_table, row)
 
             else:
                 # we dont need to save the meta shit
                 # FIXME: is this the way to work with json-encoding problems?
-                updateLastData(conn, decode(curSoup), link_table, row)
+                updateLastData(session, decode(curSoup), link_table, row)
 
-        conn.close()
-
-    # loads the articles with a limit in sql query for every feed.
-    def check_articles_limited(self):
-        meta = MetaData()
-
-        website_table = Table('website', meta, autoload=True, autoload_with=self.engine)
-        conn = self.engine.connect()
-        result = conn.execute(website_table.select()).fetchall()
-        conn.close()
-
-        # Session = sessionmaker(bind=self.engine)
-        # session = Session()
-
-        for feed in result:
-            self.load_all_articles(website_id=feed.Website_ID, limit=50)
+            session.close()

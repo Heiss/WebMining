@@ -1,12 +1,13 @@
 from sqlalchemy import create_engine
 from time import time, gmtime, strftime, sleep
 from Feed import Feed
-from Article import Article
+import traceback
+import sys
 
 
 class WebMiner:
     def __init__(self, db):
-        self.engine = create_engine("sqlite:///" + db, echo=False)
+        self.engine = create_engine("sqlite:///" + db, connect_args={'check_same_thread':False}, echo=False)
         self.is_running = True
 
         self.wait_time = 60
@@ -35,6 +36,8 @@ class WebMiner:
             except Exception as e:
                 f1 = open('./error.log', 'a')
                 f1.write("%s : Error appeared: %s \n" % (strftime("%Y-%m-%d %H:%M:%S", gmtime()), e))
+                f1.write("%s" % traceback.format_exc(sys.exc_info())
+)
                 # reduce time to wait
                 time_wait = self.wait_time_on_error * 60
 
@@ -56,6 +59,9 @@ class WebMiner:
         print("Loading feeds: ")
         feed.load_new_articles()
 
-    def loading_articles(self):
         print("Loading articles: ")
-        Article(self.engine).check_articles_limited()
+        # Article(self.engine).check_articles_limited()
+        feed.check_articles_limited()
+
+    def loading_articles(self):
+        pass
