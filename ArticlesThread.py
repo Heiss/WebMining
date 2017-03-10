@@ -28,44 +28,11 @@ def load_article(url):
     return pw
 
 
-def analyze_content(last_data, content):
-    # analyze the 2 given strings
-    # FIXME: this could be cause errors
-    diff = unified_diff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
-
-    # list prints an error, if there are no differences
-    try:
-        diff = list(diff)
-    except TypeError:
-        diff = []
-
-    return diff
-
-
-def removeGarbage(curSoup):
-    [x.decompose() for x in curSoup.findAll('script')]
-    [x.decompose() for x in curSoup.findAll('style')]
-    return curSoup
-
-
-def insertData(conn, data_table, prettifyString, row):
-    conn.execute(
-        data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=prettifyString))
-
-
-def updateLastData(conn, prettifyString, link_table, row):
-    if not row.Created:
-        conn.execute(link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(Created=datetime.now(),
-                                                                                           Last_Data=prettifyString))
-    else:
-        conn.execute(link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
-            Last_Data=prettifyString))
-
-
 class ArticlesThread(Thread):
-    def __init__(self, conn, website_id, limit, domain):
+    def __init__(self, conn, session, website_id, limit, domain):
         Thread.__init__(self)
         self.engine = conn
+        self.session = session
         self.website_id = website_id
         self.limit = limit
         self.domain = domain
@@ -80,18 +47,16 @@ class ArticlesThread(Thread):
         data_table = Table('data', meta, autoload=True, autoload_with=self.engine)
         # conn = self.engine.connect()
 
-        Session = sessionmaker(bind=self.engine)
-        session = Session()
         # count = session.query(func.count('*')).select_from(link_table).scalar()
 
         sql = select([link_table.c.Website_ID, link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data,
                       link_table.c.Created]).where(and_(link_table.c.Website_ID == self.website_id, link_table)). \
             order_by(link_table.c.Site_ID.desc()).limit(
             self.limit)
-        result = session.execute(sql)
+        result = self.session.execute(sql)
 
         # progressbar = result.fetchall()
-        progressbar = tqdm(result.fetchall())
+        progressbar = tqdm(result.fetchall(), position=(self.website_id - 1))
         for row in progressbar:
             progressbar.set_description(desc="%s ID: %s" % (self.domain, row.Site_ID))
 
@@ -104,7 +69,7 @@ class ArticlesThread(Thread):
                     strftime("%Y-%m-%d %H:%M:%S", gmtime()), row.Site_ID, row.URL, e.read()))
                 continue
 
-            curSoup = removeGarbage(BeautifulSoup(content, 'html.parser'))
+            curSoup = self.removeGarbage(BeautifulSoup(content, 'html.parser'))
 
             # check if that is not the first time that we saved sth for this article
             if row.Last_Data:
@@ -119,12 +84,41 @@ class ArticlesThread(Thread):
                 if diff_size > 1:
                     # insert the difference into the database and update the last_data in site table
                     # ndiff is dumped via json https://docs.python.org/3.6/library/difflib.html#difflib.ndiff
-                    insertData(session, data_table, diff, row)
-                    updateLastData(session, prettify, link_table, row)
+                    self.insertData(data_table, diff, row)
+                    self.updateLastData(prettify, link_table, row)
 
             else:
                 # we dont need to save the meta shit
                 # FIXME: is this the way to work with json-encoding problems?
-                updateLastData(session, decode(curSoup), link_table, row)
+                self.updateLastData(decode(curSoup), link_table, row)
 
-            session.close()
+    def analyze_content(self, last_data, content):
+        # analyze the 2 given strings
+        # FIXME: this could be cause errors
+        differences = unified_diff(last_data.splitlines(keepends=True), content.splitlines(keepends=True))
+
+        # list prints an error, if there are no differences
+        try:
+            differences = list(differences)
+        except TypeError:
+            differences = []
+
+        return differences
+
+    def removeGarbage(self, curSoup):
+        [x.decompose() for x in curSoup.findAll('script')]
+        [x.decompose() for x in curSoup.findAll('style')]
+        return curSoup
+
+    def insertData(self, data_table, prettifyString, row):
+        self.session.execute(
+            data_table.insert().values(Site_ID=row.Site_ID, Timestamp=datetime.now(), Data=prettifyString))
+
+    def updateLastData(self, prettifyString, link_table, row):
+        if not row.Created or row.Created is None:
+            self.session.execute(
+                link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(Created=datetime.now(),
+                                                                                      Last_Data=prettifyString))
+        else:
+            self.session.execute(link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
+                Last_Data=prettifyString))

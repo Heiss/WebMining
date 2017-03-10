@@ -36,8 +36,8 @@ class WebMiner:
             except Exception as e:
                 f1 = open('./error.log', 'a')
                 f1.write("%s : Error appeared: %s \n" % (strftime("%Y-%m-%d %H:%M:%S", gmtime()), e))
-                f1.write("%s" % traceback.format_exc(sys.exc_info())
-)
+                traceback.print_exc()
+
                 # reduce time to wait
                 time_wait = self.wait_time_on_error * 60
 

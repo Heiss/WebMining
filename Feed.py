@@ -80,7 +80,8 @@ class Feed:
         for link in links:
             domain = urlparse(link).hostname.split('.')[1]
             result = conn.execute(website_table.select().where(website_table.c.Name == domain)).first()
-            conn.execute(link_table.insert().values(Website_ID=result.Website_ID, URL=link, Last_Data="", Created=datetime.now()))
+            conn.execute(link_table.insert().values(Website_ID=result.Website_ID, URL=link, Last_Data="",
+                                                    Created=datetime.now()))
 
         conn.close()
 
@@ -125,13 +126,20 @@ class Feed:
         result = conn.execute(website_table.select()).fetchall()
         conn.close()
 
+        Session = sessionmaker(bind=self.engine)
+        session = Session()
+
         worker = []
 
         for feed in result:
             # Create two threads as follows
-            t = ArticlesThread(conn=self.engine, website_id=feed.Website_ID, limit=50, domain=feed.Name)
+            t = ArticlesThread(conn=self.engine, session=session, website_id=feed.Website_ID, limit=50,
+                               domain=feed.Name)
             worker.append(t)
             t.start()
 
         for t in worker:
             t.join()
+
+        session.commit()
+        session.close()
