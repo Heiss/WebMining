@@ -128,7 +128,7 @@ class Feed:
 
         for feed in result:
             # Create two threads as follows
-            t = ArticlesThread(conn=self.engine, website_id=feed.Website_ID, limit=50)
+            t = ArticlesThread(conn=self.engine, website_id=feed.Website_ID, limit=50, domain=feed.Name)
             worker.append(t)
             t.start()
 

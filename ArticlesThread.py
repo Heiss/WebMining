@@ -60,16 +60,15 @@ def updateLastData(conn, prettifyString, link_table, row):
 
 
 class ArticlesThread(Thread):
-    def __init__(self, conn, website_id, limit):
+    def __init__(self, conn, website_id, limit, domain):
         Thread.__init__(self)
         self.engine = conn
         self.website_id = website_id
         self.limit = limit
+        self.domain = domain
 
     def run(self):
-        # print("Starting Thread for Website_ID: %s" % self.website_id)
         self.load_all_articles()
-        # print("Finished Thread for Website_ID: %s" % self.website_id)
 
     def load_all_articles(self):
         meta = MetaData()
@@ -89,7 +88,7 @@ class ArticlesThread(Thread):
         # progressbar = result.fetchall()
         progressbar = tqdm(result.fetchall())
         for row in progressbar:
-            # progressbar.set_description(desc="Site_ID: %s" % (str(row.Site_ID)))
+            progressbar.set_description(desc="%s ID: %s" % (self.domain, row.Site_ID))
 
             try:
                 content = load_article(row.URL)
