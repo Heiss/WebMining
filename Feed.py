@@ -2,6 +2,7 @@ from os import getcwd
 from sqlalchemy import Table, MetaData, func
 from urllib.parse import urlparse
 from urllib import request
+from datetime import datetime
 import ssl
 import xml.etree.ElementTree as ET
 from tqdm import tqdm
@@ -79,7 +80,7 @@ class Feed:
         for link in links:
             domain = urlparse(link).hostname.split('.')[1]
             result = conn.execute(website_table.select().where(website_table.c.Name == domain)).first()
-            conn.execute(link_table.insert().values(Website_ID=result.Website_ID, URL=link, Last_Data=""))
+            conn.execute(link_table.insert().values(Website_ID=result.Website_ID, URL=link, Last_Data="", Created=datetime.now()))
 
         conn.close()
 

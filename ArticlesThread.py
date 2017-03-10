@@ -54,8 +54,11 @@ def insertData(conn, data_table, prettifyString, row):
 
 
 def updateLastData(conn, prettifyString, link_table, row):
-    conn.execute(
-        link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
+    if not row.Created:
+        conn.execute(link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(Created=datetime.now(),
+                                                                                           Last_Data=prettifyString))
+    else:
+        conn.execute(link_table.update().where(link_table.c.Site_ID == row.Site_ID).values(
             Last_Data=prettifyString))
 
 
@@ -81,8 +84,10 @@ class ArticlesThread(Thread):
         session = Session()
         # count = session.query(func.count('*')).select_from(link_table).scalar()
 
-        sql = select([link_table.c.Website_ID, link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data]).where(
-            and_(link_table.c.Website_ID == self.website_id, link_table)).order_by(link_table.c.Site_ID.desc()).limit(self.limit)
+        sql = select([link_table.c.Website_ID, link_table.c.Site_ID, link_table.c.URL, link_table.c.Last_Data,
+                      link_table.c.Created]).where(and_(link_table.c.Website_ID == self.website_id, link_table)). \
+            order_by(link_table.c.Site_ID.desc()).limit(
+            self.limit)
         result = session.execute(sql)
 
         # progressbar = result.fetchall()

@@ -6,7 +6,7 @@ def upgrade(migrate_engine):
     # migrate_engine to your metadata
     meta = MetaData(bind=migrate_engine)
     link = Table('link', meta, autoload=True)
-    createdC = Column('created', TIMESTAMP)
+    createdC = Column('Created', TIMESTAMP)
 
     createdC.create(link)
 
@@ -16,4 +16,4 @@ def downgrade(migrate_engine):
     meta = MetaData(bind=migrate_engine)
     link = Table('link', meta, autoload=True)
 
-    link.c.created.drop()
+    link.c.Created.drop()
