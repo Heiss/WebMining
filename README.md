@@ -22,3 +22,4 @@ Type **python WebMining.py help** into console to get the help-message for usage
 
 **The script is not well documented.** You have to add your feed-urls into the *sites*-file in root to crawl them. They will be added into the database at next program start.
 
+This script runs well in a tmux window, so you can keep track of multiple website-feeds on a raspberry pi.
