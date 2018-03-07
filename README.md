@@ -16,7 +16,7 @@ All sites will be visited by its own thread, so it is faster then single-threade
 
 # Usage
 
-Write **python WebMining.py help** into console to get the help-message for usage.
+Type **python WebMining.py help** into console to get the help-message for usage.
 
 # Important Notices
 
