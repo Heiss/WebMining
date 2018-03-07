@@ -6,7 +6,7 @@ A xml-crawler, which crawls specified site-feeds (in *sites* file in root) to sa
 
 All sites will be visited by its own thread, so it is faster then single-threaded.
 
-# Dependancies
+# Dependencies
 
 - sqlalchemy
 - sqlalchemy-migrate
